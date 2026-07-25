@@ -89,8 +89,8 @@ dhruvpanchal0312@gmail.com
 | 2 | Learn **Pandas** for data analysis and DataFrame operations | ✅ Completed |
 | 3 | Build **real-world Python projects** with OOP and file I/O | ✅ Completed |
 | 4 | Develop interactive web apps with **Streamlit** | ✅ Completed |
-| 5 | Understand **Data Visualization** with Matplotlib & Seaborn | 🔜 Upcoming |
-| 6 | Learn **Statistics & Probability** for Data Science | 🔜 Upcoming |
+| 5 | Learn **Statistics & Probability** for Data Science | ✅ Completed |
+| 6 | Understand **Data Visualization** with Matplotlib & Seaborn | 🔜 Upcoming |
 | 7 | Explore **Machine Learning** fundamentals | 🔜 Upcoming |
 | 8 | Dive into **GenAI** concepts and applications | 🔜 Upcoming |
 
