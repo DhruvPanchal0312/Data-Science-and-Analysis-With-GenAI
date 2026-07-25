@@ -71,7 +71,7 @@ The repository spans everything from the **foundations of NumPy and Pandas** to 
 | # | Objective | Status |
 |---|-----------|--------|
 | 1 | Master **NumPy** for numerical computing and array manipulation | ✅ Completed |
-| 2 | Learn **Pandas** for data analysis and DataFrame operations | 🔄 In Progress |
+| 2 | Learn **Pandas** for data analysis and DataFrame operations | ✅ Completed |
 | 3 | Build **real-world Python projects** with OOP and file I/O | ✅ Completed |
 | 4 | Develop interactive web apps with **Streamlit** | ✅ Completed |
 | 5 | Understand **Data Visualization** with Matplotlib & Seaborn | 🔜 Upcoming |
@@ -87,28 +87,25 @@ The repository spans everything from the **foundations of NumPy and Pandas** to 
 📦 Data Science and Analytics with GenAI
 │
 ├── 📂 NUMPY/
-│   ├── 📓 Numpy1.ipynb                         # Core NumPy operations & array mastery
-│   ├── 📓 main.ipynb                            # Scratch notebook
-│   ├── 📝 this.md                               # NumPy commands cheatsheet
-│   ├── 📝 this.txt                              # Notes file
-│   │
 │   ├── 📂 NUMPY sheriyans/                      # Structured class-wise NumPy learning
 │   │   ├── 📓 Class1file.ipynb                  # Array creation & built-in methods
 │   │   ├── 📓 class2file.ipynb                  # Indexing, slicing & reshaping
 │   │   ├── 📓 class3file.ipynb                  # Operations & broadcasting (concepts)
-│   │   └── 📓 class_3_solutions.ipynb           # Solutions: operations & aggregations
+│   │   └── 📝 this.md                           # NumPy commands cheatsheet
 │   │
 │   └── 📂 TIC TAC TOE- Numpy/                  # 🎮 Game project built with NumPy
 │       ├── 🐍 main.py                           # Console-based game (PvP & AI)
 │       └── 🐍 streamlit tic tac toe.py          # Streamlit web version
 │
 ├── 📂 PANDAS/
-│   ├── 📓 PANDAS1.ipynb                         # Initial Pandas exploration
-│   │
 │   └── 📂 SHERIYANS Pandas/                     # Structured class-wise Pandas learning
-│       ├── 📝 PANDAS notes.txt                  # Quick-reference Pandas notes
+│       ├── 📝 PANDAS notes.txt                  # Quick-reference Pandas notes & updated learnings
 │       ├── 📓 Pandas_Class1.ipynb               # Series, DataFrames & creation
-│       └── 📓 Pandas_Class2.ipynb               # Inspection, selection & indexing
+│       ├── 📓 Pandas_Class2.ipynb               # Inspection, selection & indexing
+│       ├── 📓 Pandas_class3.ipynb               # Data Cleaning Essentials (missing values, duplicates, astype)
+│       ├── 📓 pandas_class4.ipynb               # Data Selection & Filtering (boolean indexing, query, strings)
+│       ├── 📓 Pandas_Class5.ipynb               # Sorting & Descriptive Statistics (correlation, covariance)
+│       └── 📓 Pandas_class6.ipynb               # GroupBy & Aggregations (split-apply-combine, pivot tables)
 │
 ├── 📂 Python Project/
 │   ├── 📂 File and Exception Handling/          # File I/O & error handling project
@@ -135,7 +132,7 @@ The repository spans everything from the **foundations of NumPy and Pandas** to 
   - Random arrays: `np.random.rand()`, `np.random.randint()`
 - **Array Attributes**
   - `.shape`, `.ndim`, `.size`, `.dtype`
-- **Indexing & Slicing**
+- **Index & Slicing**
   - 1D indexing and slicing
   - 2D indexing and slicing (`arr[row, col]`, `arr[start:end, start:end]`)
   - Boolean indexing
@@ -158,20 +155,44 @@ The repository spans everything from the **foundations of NumPy and Pandas** to 
 
 ### 🐼 Pandas — Data Analysis
 - **Series**
-  - Creation from lists and dictionaries
+  - Creation from Python lists and dictionaries
   - Named series
 - **DataFrames**
   - Creation from dictionaries and NumPy arrays
-  - Reading CSV / Excel files (preview)
+  - Reading CSV / Excel files (sneak peek)
 - **Data Inspection**
-  - `.head()`, `.tail()`, `.info()`, `.shape`, `.dtypes`
-- **Data Selection**
+  - `.head()`, `.tail()` for viewing rows (default 5 rows)
+  - `.info()` for DataFrame summary
+  - `.shape` for dimensions, `.dtypes` for column data types
+- **Data Selection & Indexing**
   - Single and multiple column selection
-  - Label-based selection (`.loc[]`)
+  - Label-based selection (`.loc[]`) for rows and columns
   - Integer-based selection (`.iloc[]`)
-- **Index & Column Operations**
-  - `.index`, `.columns`, `.values`
-  - `.rename()`, `.set_index()`, `.reset_index()`
+  - Index & column attributes (`.index`, `.columns`, `.values` to convert to array)
+  - Column operations: `.rename()` columns, `.set_index()`, `.reset_index()`
+- **Data Cleaning Essentials**
+  - Finding missing values (`.isna()`, `.isnull()`)
+  - Removing rows/columns with missing values (`.dropna()`)
+  - Imputing/replacing missing values (`.fillna()`)
+  - Changing column data types (`.astype()`)
+  - Replacing specific values (`.replace()`)
+  - Dropping rows and columns (`.drop()`, `axis=1` for columns, `axis=0` for rows)
+  - Removing duplicate values (`.drop_duplicates()`)
+- **Data Selection & Filtering**
+  - Boolean indexing & conditional selection (e.g., `df[df['col'] > 50]`)
+  - Combining conditions using bitwise operators: `&` (AND), `|` (OR), `~` (NOT)
+  - Query method (`.query()`) for cleaner, string-based filtering
+  - String operations on string columns (`.str`)
+- **Sorting & Basic Statistics**
+  - Sorting data by index or values (`.sort_index()`, `.sort_values()`)
+  - Descriptive statistics: `.mean()`, `.median()`, `.std()`, `.describe()`, `.min()`, `.max()`
+  - Counting unique values (`.value_counts()`)
+  - Advanced relationships: Correlation (`.corr()`) and Covariance (`.cov()`)
+- **GroupBy & Aggregations**
+  - The Split-Apply-Combine concept
+  - Grouping data using `.groupby()` with aggregate functions
+  - Performing multiple aggregations on different columns using `.agg()`
+  - Pivot tables (`.pivot_table()`) and cross-tabulations (`pd.crosstab()`)
 
 ### 🐍 Python — Core Programming
 - **File Handling**
@@ -201,34 +222,40 @@ The repository spans everything from the **foundations of NumPy and Pandas** to 
 ## 📁 Folder Descriptions
 
 ### 📂 `NUMPY/`
-The core NumPy learning hub. Contains self-paced practice notebooks (`Numpy1.ipynb`), a comprehensive **NumPy commands cheatsheet** (`this.md`), structured class notes from Sheriyans Coding School, and a **fully playable Tic Tac Toe game** built using NumPy arrays for board representation and win-condition checking.
+The core NumPy learning hub containing subdirectories for structured lectures and hands-on projects built with NumPy.
 
 ### 📂 `NUMPY/NUMPY sheriyans/`
 Structured, class-by-class NumPy curriculum from Sheriyans Coding School:
 - **Class 1** — Array creation: lists to arrays, `zeros`, `ones`, `full`, `arange`, `linspace`, `random`
 - **Class 2** — Array attributes, 1D/2D indexing & slicing, boolean indexing, reshaping, flattening
 - **Class 3** — Element-wise operations, broadcasting, aggregate functions (sum, mean, std, var), axis-based operations
+- [this.md](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/NUMPY/NUMPY%20sheriyans/this.md) — Comprehensive command cheatsheet for NumPy.
 
 ### 📂 `NUMPY/TIC TAC TOE- Numpy/`
 A complete **Tic Tac Toe game** showcasing applied NumPy skills. Features two versions:
-- **Console version** (`main.py`) — Color-coded terminal UI, custom exception hierarchy, AI opponent with strategic move selection (win → block → center → random)
-- **Streamlit version** (`streamlit tic tac toe.py`) — Interactive web-based game with Player vs Player and Player vs AI modes
+- [main.py](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/NUMPY/TIC%20TAC%20TOE-%20Numpy/main.py) — Console-based game with color-coded terminal UI, custom exceptions, and strategic AI (win → block → center → random)
+- [streamlit tic tac toe.py](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/NUMPY/TIC%20TAC%20TOE-%20Numpy/streamlit%20tic%20tac%20toe.py) — Streamlit web app version with responsive UI board
 
 ### 📂 `PANDAS/`
-The Pandas learning section with initial exploration notebooks and structured class notes covering Series, DataFrames, data inspection, and selection operations.
+The Pandas learning section housing structured class notes and interactive Jupyter notebooks covering the foundational and advanced aspects of Pandas data analysis.
 
 ### 📂 `PANDAS/SHERIYANS Pandas/`
-Structured Pandas curriculum:
-- **Class 1** — What is Pandas, Series vs DataFrames, creation from lists, dictionaries, and NumPy arrays
-- **Class 2** — DataFrame inspection (`head`, `tail`, `info`), row/column selection (`loc`, `iloc`), renaming, index operations, and practice exercises
+Structured Pandas curriculum mapping out class-by-class learning:
+- [PANDAS notes.txt](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/PANDAS%20notes.txt) — Quick-reference summary notes of updated Pandas commands, methods, filtering techniques, and cleaning tools.
+- [Pandas_Class1.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_Class1.ipynb) — Series vs DataFrames, creation from lists, dictionaries, and NumPy arrays, CSV/Excel sneak peek.
+- [Pandas_Class2.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_Class2.ipynb) — DataFrame inspection (`head`, `tail`, `info`), row/column selection (`loc`, `iloc`), renaming columns, index operations, and practice exercises.
+- [Pandas_class3.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_class3.ipynb) — Data Cleaning: detecting missing values (`isna`, `isnull`), dropping nulls (`dropna`), filling nulls (`fillna`), type casting (`astype`), replacing values, dropping columns/rows, and removing duplicates.
+- [pandas_class4.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/pandas_class4.ipynb) — Data Selection & Filtering: Boolean indexing, multiple condition filtering (`&`, `|`, `~`), string operations, and filtering with the `.query()` method.
+- [Pandas_Class5.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_Class5.ipynb) — Sorting & Descriptive Statistics: Sorting rows/columns (`sort_values`, `sort_index`), computing metrics (mean, median, std, min, max, describe), counting values (`value_counts`), and examining correlation/covariance.
+- [Pandas_class6.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_class6.ipynb) — GroupBy & Aggregations: Split-Apply-Combine workflow, `.groupby()` operations, custom aggregations with `.agg()`, pivot tables, and crosstabs.
 
 ### 📂 `Python Project/File and Exception Handling/`
 A **CRUD file manager** application demonstrating Python's `pathlib` and `os` modules. Supports creating, reading, updating, and deleting both files and folders with comprehensive exception handling.
 
 ### 📂 `Python Project/LIBRARY MANAGEMENT SYSTEM/`
 A **full-featured Library Management System** with two interfaces:
-- **CLI application** (`main.py`) — OOP architecture with the `Library` class, JSON persistence, book/member management, borrow/return tracking, and search functionality
-- **Streamlit web dashboard** (`app.py`) — Modern web UI with dashboard metrics, form-based data entry, dropdown-based borrow/return, and real-time database updates
+- [main.py](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/Python%20Project/LIBRARY%20MANAGEMENT%20SYSTEM/main.py) — CLI application with OOP architecture, JSON persistence, book/member management, and borrow/return tracking.
+- [app.py](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/Python%20Project/LIBRARY%20MANAGEMENT%20SYSTEM/app.py) — Modern Streamlit web dashboard with metrics, forms, and real-time database updates.
 
 ---
 
@@ -258,7 +285,7 @@ A **full-featured Library Management System** with two interfaces:
 | Library | Purpose |
 |---------|---------|
 | `numpy` | Numerical computing, array manipulation, linear algebra operations |
-| `pandas` | Data analysis, DataFrames, Series, data inspection & selection |
+| `pandas` | Data analysis, DataFrames, Series, data inspection, cleaning, filtering & aggregation |
 | `streamlit` | Building interactive web applications and dashboards |
 | `json` | Reading and writing JSON data for persistent storage |
 | `pathlib` | Cross-platform file system path operations |
@@ -273,14 +300,15 @@ A **full-featured Library Management System** with two interfaces:
 
 | Notebook | Location | What You'll Learn |
 |----------|----------|-------------------|
-| `Numpy1.ipynb` | `NUMPY/` | Array creation, indexing, shape, dtype, zeros, arange, linspace, reshape, sum, argmax/argmin, transpose, element-wise operations |
-| `Class1file.ipynb` | `NUMPY/NUMPY sheriyans/` | Creating arrays from lists, built-in methods (`zeros`, `ones`, `full`, `arange`, `linspace`), random arrays |
-| `class2file.ipynb` | `NUMPY/NUMPY sheriyans/` | Array attributes (`.shape`, `.ndim`, `.size`, `.dtype`), 1D/2D indexing & slicing, reshaping, flattening |
-| `class3file.ipynb` | `NUMPY/NUMPY sheriyans/` | Element-wise operations concepts, broadcasting theory, aggregate functions overview |
-| `class_3_solutions.ipynb` | `NUMPY/NUMPY sheriyans/` | Complete solutions: arithmetic ops, broadcasting examples, aggregate functions with axis-based operations |
-| `PANDAS1.ipynb` | `PANDAS/` | Initial NumPy-Pandas integration, array operations, first Pandas import |
-| `Pandas_Class1.ipynb` | `PANDAS/SHERIYANS Pandas/` | Pandas intro, Series from lists & dicts, DataFrames from dicts & NumPy arrays, CSV/Excel preview |
-| `Pandas_Class2.ipynb` | `PANDAS/SHERIYANS Pandas/` | DataFrame inspection (`head`, `tail`, `info`), `loc`/`iloc` selection, column renaming, index operations, practice exercises |
+| [Class1file.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/NUMPY/NUMPY%20sheriyans/Class1file.ipynb) | `NUMPY/NUMPY sheriyans/` | Creating arrays from lists, built-in methods (`zeros`, `ones`, `full`, `arange`, `linspace`), random arrays |
+| [class2file.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/NUMPY/NUMPY%20sheriyans/class2file.ipynb) | `NUMPY/NUMPY sheriyans/` | Array attributes (`.shape`, `.ndim`, `.size`, `.dtype`), 1D/2D indexing & slicing, reshaping, flattening |
+| [class3file.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/NUMPY/NUMPY%20sheriyans/class3file.ipynb) | `NUMPY/NUMPY sheriyans/` | Element-wise operations concepts, broadcasting theory, aggregate functions overview |
+| [Pandas_Class1.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_Class1.ipynb) | `PANDAS/SHERIYANS Pandas/` | Pandas intro, Series from lists & dicts, DataFrames from dicts & NumPy arrays, CSV/Excel preview |
+| [Pandas_Class2.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_Class2.ipynb) | `PANDAS/SHERIYANS Pandas/` | DataFrame inspection (`head`, `tail`, `info`), `loc`/`iloc` selection, column renaming, index operations, practice exercises |
+| [Pandas_class3.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_class3.ipynb) | `PANDAS/SHERIYANS Pandas/` | Data Cleaning: missing values (`isna`/`isnull`), dropping rows (`dropna`), filling nulls (`fillna`), casting data types (`astype`), replacing values (`replace`), duplicate detection and removal |
+| [pandas_class4.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/pandas_class4.ipynb) | `PANDAS/SHERIYANS Pandas/` | Advanced Selection: boolean indexing, multi-condition filtering (`&`, `|`, `~`), cleaner query syntax (`.query()`), and string manipulations (`.str`) |
+| [Pandas_Class5.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_Class5.ipynb) | `PANDAS/SHERIYANS Pandas/` | Sorting and Descriptive Statistics: sorting by index or values, aggregation metrics (mean, median, std, etc.), counting frequencies (`value_counts`), correlation (`corr`) and covariance (`cov`) |
+| [Pandas_class6.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_class6.ipynb) | `PANDAS/SHERIYANS Pandas/` | Advanced aggregation: Split-Apply-Combine workflow, `groupby` operations, multi-column aggregation, pivot tables, and crosstabs |
 
 ---
 
@@ -291,7 +319,7 @@ A **full-featured Library Management System** with two interfaces:
 | Detail | Description |
 |--------|-------------|
 | **Name** | Tic Tac Toe (Console + Streamlit) |
-| **Location** | `NUMPY/TIC TAC TOE- Numpy/` |
+| **Location** | [TIC TAC TOE- Numpy](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/NUMPY/TIC%20TAC%20TOE-%20Numpy/) |
 | **Description** | A complete Tic Tac Toe game built from scratch using NumPy arrays for board state management. Features two versions: a color-coded console app and an interactive Streamlit web app. |
 | **Skills Learned** | NumPy arrays, game logic, AI strategy, custom exceptions, Streamlit session state, UI design |
 | **Concepts Used** | `np.zeros()`, `.sum(axis)`, `.trace()`, `np.fliplr()`, `np.any()`, `np.concatenate()`, OOP, exception hierarchy |
@@ -312,7 +340,7 @@ A **full-featured Library Management System** with two interfaces:
 | Detail | Description |
 |--------|-------------|
 | **Name** | Library Management System (CLI + Streamlit) |
-| **Location** | `Python Project/LIBRARY MANAGEMENT SYSTEM/` |
+| **Location** | [LIBRARY MANAGEMENT SYSTEM](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/Python%20Project/LIBRARY%20MANAGEMENT%20SYSTEM/) |
 | **Description** | A full-featured library management application with CLI and web interfaces. Supports book cataloging, member registration, borrowing/returning with persistent JSON storage. |
 | **Skills Learned** | OOP design, JSON persistence, CRUD operations, Streamlit dashboards, data validation |
 | **Concepts Used** | Classes, `@staticmethod`, `@classmethod`, `json.load/dump`, `pathlib.Path`, `datetime`, exception handling |
@@ -333,7 +361,7 @@ A **full-featured Library Management System** with two interfaces:
 | Detail | Description |
 |--------|-------------|
 | **Name** | File and Exception Handling System |
-| **Location** | `Python Project/File and Exception Handling/` |
+| **Location** | [File and Exception Handling](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/Python%20Project/File%20and%20Exception%20Handling/) |
 | **Description** | A CRUD file and folder manager demonstrating Python's file handling capabilities with robust exception handling throughout. |
 | **Skills Learned** | `pathlib` operations, `os` module, try/except patterns, user input handling |
 | **Concepts Used** | `Path.mkdir()`, `Path.rglob()`, `Path.rename()`, `Path.exists()`, file read/write modes, `os.remove()` |
@@ -354,7 +382,7 @@ A **full-featured Library Management System** with two interfaces:
 📅 LEARNING TIMELINE
 ═══════════════════════════════════════════════════════════
 
-🟩 Phase 1 — NumPy Foundations
+🟩 Phase 1 — NumPy Foundations (Completed)
 ├── ✅ NumPy Array Creation (lists, zeros, ones, full, arange, linspace)
 ├── ✅ Array Attributes (shape, ndim, size, dtype)
 ├── ✅ Indexing & Slicing (1D, 2D, boolean)
@@ -362,28 +390,30 @@ A **full-featured Library Management System** with two interfaces:
 ├── ✅ Element-wise Operations & Broadcasting
 ├── ✅ Aggregate Functions (sum, mean, std, var, min, max)
 ├── ✅ Axis-based Operations (row-wise, column-wise)
-└── ✅ NumPy Commands Cheatsheet
+└── ✅ NumPy Commands Cheatsheet (moved to NUMPY sheriyans/this.md)
 
-🟩 Phase 2 — NumPy Applied Project
+🟩 Phase 2 — NumPy Applied Project (Completed)
 ├── ✅ Tic Tac Toe — Game Logic with NumPy
 ├── ✅ AI Opponent with Strategy (Win/Block/Center/Random)
 ├── ✅ Custom Exception Hierarchy
 ├── ✅ Console Version with Color-coded Output
 └── ✅ Streamlit Web Version
 
-🟩 Phase 3 — Python Projects
+🟩 Phase 3 — Python Projects (Completed)
 ├── ✅ File & Exception Handling (CRUD File Manager)
 ├── ✅ Library Management System — CLI (OOP + JSON)
 └── ✅ Library Management System — Streamlit Web Dashboard
 
-🟨 Phase 4 — Pandas Foundations (In Progress)
-├── ✅ Pandas Introduction & Setup
-├── ✅ Series Creation (from lists, dicts)
-├── ✅ DataFrame Creation (from dicts, NumPy arrays)
-├── ✅ Data Inspection (head, tail, info, shape, dtypes)
-├── ✅ Column & Row Selection (loc, iloc)
-├── ✅ Renaming Columns & Index Operations
-└── 🔄 Data Cleaning & Transformation (upcoming)
+🟩 Phase 4 — Pandas Foundations (Completed)
+├── ✅ Pandas Introduction & Setup (Class 1)
+├── ✅ Series & DataFrame Creation (from lists, dicts, arrays) (Class 1)
+├── ✅ Data Inspection (head, tail, info, shape, dtypes) (Class 2)
+├── ✅ Column & Row Selection (loc, iloc, index, columns, values) (Class 2)
+├── ✅ Column Renaming & Index Operations (Class 2)
+├── ✅ Data Cleaning Essentials (isna, dropna, fillna, astype, replace, drop_duplicates) (Class 3)
+├── ✅ Data Selection & Filtering (boolean indexing, logical & | ~, query, string methods) (Class 4)
+├── ✅ Sorting & Descriptive Statistics (sort_values, sort_index, corr, cov, value_counts) (Class 5)
+└── ✅ GroupBy & Aggregations (split-apply-combine, groupby, agg, pivot_table, crosstab) (Class 6)
 
 🟥 Phase 5 — Data Visualization (Upcoming)
 ├── 🔜 Matplotlib Basics
@@ -424,12 +454,6 @@ A **full-featured Library Management System** with two interfaces:
   </tr>
 
   <tr>
-    <td>📈 Statistics &amp; Probability</td>
-    <td>████████████████████ 100%</td>
-    <td>✅ Completed</td>
-  </tr>
-
-  <tr>
     <td>🔢 NumPy</td>
     <td>████████████████████ 100%</td>
     <td>✅ Completed</td>
@@ -437,12 +461,18 @@ A **full-featured Library Management System** with two interfaces:
 
   <tr>
     <td>🐼 Pandas</td>
-    <td>████████░░░░░░░░░░░░ 40%</td>
-    <td>🔄 In Progress</td>
+    <td>████████████████████ 100%</td>
+    <td>✅ Completed</td>
   </tr>
 
   <tr>
     <td>📊 Data Visualization</td>
+    <td>░░░░░░░░░░░░░░░░░░░░ 0%</td>
+    <td>🔜 Upcoming</td>
+  </tr>
+
+  <tr>
+    <td>📈 Statistics &amp; Probability</td>
     <td>░░░░░░░░░░░░░░░░░░░░ 0%</td>
     <td>🔜 Upcoming</td>
   </tr>
@@ -483,7 +513,9 @@ A **full-featured Library Management System** with two interfaces:
 - ✅ Broadcasting & vectorized computing
 - ✅ Statistical aggregation functions
 - ✅ Pandas Series & DataFrames
-- ✅ Data inspection & selection
+- ✅ Data inspection, cleaning, filtering & selection
+- ✅ Sorting, descriptive statistics, correlation & covariance
+- ✅ GroupBy, aggregations, pivot tables & crosstabs
 
 </td>
   </tr>
@@ -543,7 +575,7 @@ A **full-featured Library Management System** with two interfaces:
 ```mermaid
 graph LR
     A[✅ Python Projects] --> B[✅ NumPy]
-    B --> C[🔄 Pandas]
+    B --> C[✅ Pandas]
     C --> D[📊 Matplotlib & Seaborn]
     D --> E[📈 Statistics & Probability]
     E --> F[🤖 Machine Learning]
@@ -555,7 +587,7 @@ graph LR
 |-------|--------|--------|
 | **Phase 1** | Python, OOP, File Handling, Projects | ✅ Completed |
 | **Phase 2** | NumPy — Arrays, Operations, Aggregations | ✅ Completed |
-| **Phase 3** | Pandas — DataFrames, Cleaning, EDA | 🔄 In Progress |
+| **Phase 3** | Pandas — DataFrames, Cleaning, Filtering, Stats, GroupBy | ✅ Completed |
 | **Phase 4** | Matplotlib, Seaborn — Data Visualization | 🔜 Upcoming |
 | **Phase 5** | Statistics, Probability, Hypothesis Testing | 🔜 Upcoming |
 | **Phase 6** | Scikit-Learn — ML Algorithms & Pipelines | 🔜 Upcoming |
