@@ -51,3 +51,7 @@ replace one value with other eg. c['Name']=c['Name'].replace("David","Dhruv")
 17. drop_duplicates():
 drop_duplicates in pandas are used to remove the duplicate values from the data eg. df.drop_duplicates()
 
+18. - Use comparison operators to build conditions (e.g., `df['col'] > 50`).
+- Pass the condition inside `df[...]` to get matching rows.
+- Combine multiple conditions with `&` (AND), `|` (OR), and `~` (NOT).
+- Parentheses are required when combining conditions.
