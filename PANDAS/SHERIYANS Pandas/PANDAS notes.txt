@@ -34,8 +34,20 @@ used to rename the columns or rows of the dataframes
 11. b.isna() / b.isnull()
 used to find the missing values in the data
 
-12. 
+12. b.dropna()
+removes the rows or columns which contains the missing values
 
+13. fillna()
+replace the missing values in the data with the given value eg. b['Age']=b['Age'].fillna(b['Age']).mean()
 
+14. astype()
+change the data type of the columns from one to another eg. b['Score']=b['Score'].astype(float)
 
+15. replace()
+replace one value with other eg. c['Name']=c['Name'].replace("David","Dhruv")
+
+16. columns= axis 1 and rows = axis 0
+
+17. drop_duplicates():
+drop_duplicates in pandas are used to remove the duplicate values from the data eg. df.drop_duplicates()
 
