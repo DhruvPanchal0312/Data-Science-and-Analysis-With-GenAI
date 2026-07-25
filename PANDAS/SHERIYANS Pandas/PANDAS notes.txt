@@ -55,3 +55,6 @@ drop_duplicates in pandas are used to remove the duplicate values from the data 
 - Pass the condition inside `df[...]` to get matching rows.
 - Combine multiple conditions with `&` (AND), `|` (OR), and `~` (NOT).
 - Parentheses are required when combining conditions.
+
+19. b.query("Age> 25 and Score > 93")
+alternate way of filtering the data rather than using the method given in 18
