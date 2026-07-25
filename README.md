@@ -65,6 +65,21 @@ The repository spans everything from the **foundations of NumPy and Pandas** to 
 > 💡 **This is not just coursework — it's a portfolio of applied learning, built one day at a time.**
 
 ---
+## 📬 Contact
+
+<p align="center">
+
+💻 **GitHub**  
+https://github.com/dhruvpanchal1249 
+
+💼 **LinkedIn**  
+https://www.linkedin.com/in/dhruv-p-735310341
+
+📧 **Email**  
+dhruvpanchal0312@gmail.com
+
+</p>
+
 
 ## 🎯 Learning Objectives
 
@@ -641,20 +656,6 @@ copies or substantial portions of the Software.
 
 ---
 
-## 📬 Contact
-
-<p align="center">
-
-💻 **GitHub**  
-https://github.com/dhruvpanchal1249 
-
-💼 **LinkedIn**  
-https://www.linkedin.com/in/dhruv-p-735310341
-
-📧 **Email**  
-dhruvpanchal0312@gmail.com
-
-</p>
 
 ---
 
