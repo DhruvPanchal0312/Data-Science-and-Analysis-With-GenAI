@@ -479,15 +479,15 @@ A **full-featured Library Management System** with two interfaces:
     <td>████████████████████ 100%</td>
     <td>✅ Completed</td>
   </tr>
-
+  
   <tr>
-    <td>📊 Data Visualization</td>
-    <td>░░░░░░░░░░░░░░░░░░░░ 0%</td>
+    <td>📈 Statistics &amp; Probability</td>
+    <td>████████████████████ 100%</td>
     <td>🔜 Upcoming</td>
   </tr>
 
   <tr>
-    <td>📈 Statistics &amp; Probability</td>
+    <td>📊 Data Visualization</td>
     <td>░░░░░░░░░░░░░░░░░░░░ 0%</td>
     <td>🔜 Upcoming</td>
   </tr>
@@ -603,8 +603,8 @@ graph LR
 | **Phase 1** | Python, OOP, File Handling, Projects | ✅ Completed |
 | **Phase 2** | NumPy — Arrays, Operations, Aggregations | ✅ Completed |
 | **Phase 3** | Pandas — DataFrames, Cleaning, Filtering, Stats, GroupBy | ✅ Completed |
-| **Phase 4** | Matplotlib, Seaborn — Data Visualization | 🔜 Upcoming |
-| **Phase 5** | Statistics, Probability, Hypothesis Testing | 🔜 Upcoming |
+| **Phase 4** | Statistics, Probability, Hypothesis Testing | ✅ Completed |
+| **Phase 5** | Matplotlib, Seaborn — Data Visualization | 🔜 Upcoming |
 | **Phase 6** | Scikit-Learn — ML Algorithms & Pipelines | 🔜 Upcoming |
 | **Phase 7** | Deep Learning — Neural Networks | 🔜 Upcoming |
 | **Phase 8** | GenAI — LLMs, Prompt Engineering, RAG | 🔜 Upcoming |
