@@ -288,7 +288,7 @@ A **full-featured Library Management System** with two interfaces:
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50"/><br><b>Git</b></td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50"/><br><b>GitHub</b></td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" width="50"/><br><b>JSON</b></td>
-    <td align="center"><img src="YOUR_ANTIGRAVITY_LOGO_URL" width="50"/><br><b>Antigravity</b>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50"/><br><b>VS Code</b></td>
     <td align="center"><img src="https://colab.research.google.com/img/colab_favicon_256px.png" width="50"/><br><b>Google Colab</b></td>
   </tr>
 </table>
