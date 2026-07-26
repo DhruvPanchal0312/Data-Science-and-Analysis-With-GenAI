@@ -430,15 +430,15 @@ A **full-featured Library Management System** with two interfaces:
 ├── ✅ Sorting & Descriptive Statistics (sort_values, sort_index, corr, cov, value_counts) (Class 5)
 └── ✅ GroupBy & Aggregations (split-apply-combine, groupby, agg, pivot_table, crosstab) (Class 6)
 
-🟥 Phase 5 — Data Visualization (Upcoming)
+🟩 Phase 5 — Statistics & Probability (Completed)
+├── ✅ Descriptive Statistics
+├── ✅ Probability Distributions
+└── ✅ Hypothesis Testing
+
+🟥 Phase 6 — Data Visualization (Upcoming)
 ├── 🔜 Matplotlib Basics
 ├── 🔜 Seaborn Statistical Plots
 └── 🔜 Advanced Visualization Techniques
-
-🟥 Phase 6 — Statistics & Probability (Upcoming)
-├── 🔜 Descriptive Statistics
-├── 🔜 Probability Distributions
-└── 🔜 Hypothesis Testing
 
 🟥 Phase 7 — Machine Learning (Upcoming)
 ├── 🔜 Supervised Learning
