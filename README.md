@@ -24,8 +24,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/YOUR_USERNAME/Data-Science-and-Analytics-with-GenAI?style=flat-square&color=6C63FF" alt="Last Commit" />
-  <img src="https://img.shields.io/github/repo-size/YOUR_USERNAME/Data-Science-and-Analytics-with-GenAI?style=flat-square&color=6C63FF" alt="Repo Size" />
+  
   <img src="https://img.shields.io/badge/Status-In%20Progress-orange?style=flat-square" alt="Status" />
   <img src="https://img.shields.io/badge/License-MIT-brightgreen?style=flat-square" alt="License" />
 </p>
