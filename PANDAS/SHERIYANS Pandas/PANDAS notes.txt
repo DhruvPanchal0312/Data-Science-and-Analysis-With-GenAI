@@ -71,4 +71,7 @@ used to get the mode of the whole data
 23. df.median(numeric_only= True)
 used to get the median of the whole data
 
-24. 
+24. df.std(numeric_only= True)
+used to get the standard deviation of the whole data
+
+25. 
