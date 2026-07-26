@@ -58,3 +58,7 @@ drop_duplicates in pandas are used to remove the duplicate values from the data 
 
 19. b.query("Age> 25 and Score > 93")
 alternate way of filtering the data rather than using the method given in 18
+
+20. df.sort_values(by= 'Price', ascending= False) 
+sorts the data in ascending or descending order
+
