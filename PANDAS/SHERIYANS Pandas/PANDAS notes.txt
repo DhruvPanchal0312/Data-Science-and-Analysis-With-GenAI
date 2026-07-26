@@ -62,3 +62,13 @@ alternate way of filtering the data rather than using the method given in 18
 20. df.sort_values(by= 'Price', ascending= False) 
 sorts the data in ascending or descending order
 
+21. df.mean(numeric_only= True)
+used to get the mean of the whole data
+
+22. df.mode(numeric_only= True)
+used to get the mode of the whole data
+
+23. df.median(numeric_only= True)
+used to get the median of the whole data
+
+24. 
