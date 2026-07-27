@@ -74,4 +74,6 @@ used to get the median of the whole data
 24. df.std(numeric_only= True)
 used to get the standard deviation of the whole data
 
-25. 
+25. df.value_counts('Product')
+used to get the count of each unique value in the data
+
