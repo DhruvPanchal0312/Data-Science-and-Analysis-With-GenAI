@@ -648,7 +648,7 @@ copies or substantial portions of the Software.
 
 ## 🙏 Acknowledgements
 
-- 🎓 **Course**: [Data Science and Analytics with GenAI]((https://sheryians.com/courses/68da779296b89547293c7a26)) — for providing a structured and comprehensive curriculum
+- 🎓 **Course**: [Data Science and Analytics with GenAI]([(https://sheryians.com/courses/68da779296b89547293c7a26)]) — for providing a structured and comprehensive curriculum
 - 🏫 **Sheriyans Coding School** — for the excellent NumPy and Pandas class materials
 - 🐍 **Python Community** — for the incredible ecosystem of open-source libraries
 - 📚 **NumPy, Pandas & Streamlit Teams** — for building world-class tools for data science
