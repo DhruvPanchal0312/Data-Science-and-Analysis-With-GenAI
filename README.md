@@ -482,7 +482,7 @@ A **full-featured Library Management System** with two interfaces:
   <tr>
     <td>📈 Statistics &amp; Probability</td>
     <td>████████████████████ 100%</td>
-    <td>🔜 Upcoming</td>
+    <td>✅ Completed</td>
   </tr>
 
   <tr>
