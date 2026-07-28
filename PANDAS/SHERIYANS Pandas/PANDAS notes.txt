@@ -91,3 +91,9 @@ used to calculate agg func of diff columns and for multiple things
 
 30. pivot_table(values = ['Salary','Age'] , index ="Department", aggfunc="mean")
 used to create a pivot table of the data of multiple columns
+
+31. df['AgeGroup']=pd.cut(df['Age'], bins=[25,30,35,40] , labels=['25-30','31-35','36-40'])
+used to create a new column of age groups by binning the values
+
+32. pd.crosstab(df['Department'], df['AgeGroup'])
+used to create a crosstab of the data of multiple columns
