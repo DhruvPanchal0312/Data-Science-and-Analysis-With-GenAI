@@ -88,3 +88,6 @@ used to get the mean of the salary of each department
 
 29.  df.groupby('Department').agg({"Salary":['mean','max','min'], "Age":['min','max']})
 used to calculate agg func of diff columns and for multiple things
+
+30. pivot_table(values = ['Salary','Age'] , index ="Department", aggfunc="mean")
+used to create a pivot table of the data of multiple columns
