@@ -82,3 +82,10 @@ used to find the covariance of the data\
 
 27. df.corr(numeric_only=True)
 used to find the correlation of the data of only numeric values
+
+28.  df.groupby('Department')['Salary'].mean()
+used to get the mean of the salary of each department
+
+29.  df.groupby('Department').agg({"Salary":['mean','max','min'], "Age":['min','max']})
+used to calculate agg func of diff columns and for multiple things
+[]
