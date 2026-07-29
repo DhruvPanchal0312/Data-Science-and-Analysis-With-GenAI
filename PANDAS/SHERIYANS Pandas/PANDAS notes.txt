@@ -97,3 +97,6 @@ used to create a new column of age groups by binning the values
 
 32. pd.crosstab(df['Department'], df['AgeGroup'])
 used to create a crosstab of the data of multiple columns
+
+33. pd.concat([df1,df2],ignore_index=True)
+used to concatenate(merge) the data of multiple dataframes
