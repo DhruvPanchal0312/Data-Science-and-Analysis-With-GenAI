@@ -100,3 +100,15 @@ used to create a crosstab of the data of multiple columns
 
 33. pd.concat([df1,df2],ignore_index=True)
 used to concatenate(merge) the data of multiple dataframes
+
+34. pd.merge(df4, df1, on="Product_ID",how="right")
+used to merge the data of two dataframes based on the common column ('Product_ID'), keeping all rows from the right dataframe (df1) and matching rows from the left dataframe (df4).
+
+35. pd.merge(df4, df1, on="Product_ID",how="left")
+used to merge the data of two dataframes based on the common column ('Product_ID'), keeping all rows from the left dataframe (df4) and matching rows from the right dataframe (df1).
+
+36. pd.merge(df4, df1, on="Product_ID",how="inner")
+it includes only the common items in both the tables
+
+37. pd.merge(df4, df1, on="Product_ID",how="outer") 
+#it inlcludes the whole both tables
