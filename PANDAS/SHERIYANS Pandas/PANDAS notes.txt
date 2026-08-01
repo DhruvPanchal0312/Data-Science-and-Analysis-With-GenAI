@@ -111,4 +111,4 @@ used to merge the data of two dataframes based on the common column ('Product_ID
 it includes only the common items in both the tables
 
 37. pd.merge(df4, df1, on="Product_ID",how="outer") 
-#it inlcludes the whole both tables
+.#it inlcludes the whole both tables
