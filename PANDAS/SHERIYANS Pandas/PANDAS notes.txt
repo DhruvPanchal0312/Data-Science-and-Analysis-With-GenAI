@@ -115,3 +115,9 @@ it includes only the common items in both the tables
 
 38. pd.to_datetime(products['Purchase_Date'] , errors="coerce")
 used to convert the data into datetime format and errors="coerce" is used to convert the data into datetime format and if there is any error then it will convert it into NaT(Not a Time)
+
+39. df['Total Marks'] = df[['Maths','Science']].apply(lambda rows:rows.sum(), axis=1)
+used to create new column and perform the sum using .apply() and lambda
+
+40. df['New Math']=df['Maths'].map(lambda x:x+5)
+used to add 5 to each value of the maths column using .map() and lambda
