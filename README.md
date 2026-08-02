@@ -89,7 +89,7 @@ dhruvpanchal0312@gmail.com
 | 3 | Build **real-world Python projects** with OOP and file I/O | ✅ Completed |
 | 4 | Develop interactive web apps with **Streamlit** | ✅ Completed |
 | 5 | Learn **Statistics & Probability** for Data Science | ✅ Completed |
-| 6 | Understand **Data Visualization** with Matplotlib & Seaborn | 🔜 Upcoming |
+| 6 | Understand **Data Visualization** with Matplotlib & Seaborn | 🟡 In Progress |
 | 7 | Explore **Machine Learning** fundamentals | 🔜 Upcoming |
 | 8 | Dive into **GenAI** concepts and applications | 🔜 Upcoming |
 
@@ -99,6 +99,9 @@ dhruvpanchal0312@gmail.com
 
 ```
 📦 Data Science and Analytics with GenAI
+│
+├── 📂 MATPLOTLIB/                               # 📊 Data Visualization with Matplotlib
+│   └── 📓 Matplotlib_class1.ipynb               # Line/bar/scatter plots, subplots, OOP interface & customization
 │
 ├── 📂 NUMPY/
 │   ├── 📂 NUMPY sheriyans/                      # Structured class-wise NumPy learning
@@ -119,7 +122,14 @@ dhruvpanchal0312@gmail.com
 │       ├── 📓 Pandas_class3.ipynb               # Data Cleaning Essentials (missing values, duplicates, astype)
 │       ├── 📓 pandas_class4.ipynb               # Data Selection & Filtering (boolean indexing, query, strings)
 │       ├── 📓 Pandas_Class5.ipynb               # Sorting & Descriptive Statistics (correlation, covariance)
-│       └── 📓 Pandas_class6.ipynb               # GroupBy & Aggregations (split-apply-combine, pivot tables)
+│       ├── 📓 Pandas_class6.ipynb               # GroupBy & Aggregations (split-apply-combine, pivot tables)
+│       ├── 📓 Pandas_class7.ipynb               # Merging, Joining & Concatenation (concat, merge, join)
+│       ├── 📓 Pandas_class8.ipynb               # Time Series (DatetimeIndex, resampling, conversion)
+│       ├── 📓 Pandas_class9.ipynb               # Advanced Operations & Performance (apply, map, lambdas)
+│       │
+│       └── 📂 NUMPY Project/                    # 📈 Applied Data Analysis Project
+│           ├── 📓 Stud Que.ipynb                # Student Performance analysis questions
+│           └── 📄 student_performance.csv       # Big dataset with 1,000,000+ student records
 │
 ├── 📂 Python Project/
 │   ├── 📂 File and Exception Handling/          # File I/O & error handling project
@@ -173,7 +183,7 @@ dhruvpanchal0312@gmail.com
   - Named series
 - **DataFrames**
   - Creation from dictionaries and NumPy arrays
-  - Reading CSV / Excel files (sneak peek)
+  - Reading CSV / Excel files
 - **Data Inspection**
   - `.head()`, `.tail()` for viewing rows (default 5 rows)
   - `.info()` for DataFrame summary
@@ -207,6 +217,33 @@ dhruvpanchal0312@gmail.com
   - Grouping data using `.groupby()` with aggregate functions
   - Performing multiple aggregations on different columns using `.agg()`
   - Pivot tables (`.pivot_table()`) and cross-tabulations (`pd.crosstab()`)
+- **Merging, Joining & Concatenation**
+  - Vertical and horizontal stacking using `pd.concat()` (ignoring indices)
+  - SQL-style inner, outer, left, and right joins using `pd.merge()` on keys
+  - Index-based alignment and joining via `.join()`
+- **Time Series Handling**
+  - Converting columns to datetime using `pd.to_datetime()` with error coercing
+  - Setting DateTimeIndex and resampling data (`.resample()`)
+- **Advanced Mapping & Performance**
+  - Custom function application across rows/columns using `.apply()`
+  - Element-wise Series transformation using `.map()` combined with lambda functions
+
+### 📊 Matplotlib — Data Visualization
+- **Introduction & Anatomy of a Figure**
+  - Core components: Figure canvas, plot Axes, Axis limits, labels, legends, and markers
+- **Stateful vs Object-Oriented Interface**
+  - Rapid plotting via `plt` functional calls
+  - Granular control over multiple subplots using `fig, ax = plt.subplots()`
+- **Canvas & Subplots Layouts**
+  - Initializing custom drawing surfaces with `plt.figure()`
+  - Arranging multiple plots using `plt.subplot(nrows, ncols, index)`
+- **Plot Customization & Styling**
+  - Adjusting canvas dimensions, aspect ratio, and DPI (`figsize`, `dpi`)
+  - Enhancing readability with custom legends, title labels, and axis markers
+  - Detailed styling: colors (`color`/`c`), line widths (`linewidth`/`lw`), styles (`linestyle`/`ls`), and markers
+  - Restricting x/y viewing bounds (`plt.xlim()`/`plt.ylim()`, `ax.set_xlim()`/`ax.set_ylim()`)
+- **Plot Types**
+  - Line plots, Bar plots, Scatter plots, Histograms, and Boxplots
 
 ### 🐍 Python — Core Programming
 - **File Handling**
@@ -250,6 +287,10 @@ A complete **Tic Tac Toe game** showcasing applied NumPy skills. Features two ve
 - [main.py](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/NUMPY/TIC%20TAC%20TOE-%20Numpy/main.py) — Console-based game with color-coded terminal UI, custom exceptions, and strategic AI (win → block → center → random)
 - [streamlit tic tac toe.py](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/NUMPY/TIC%20TAC%20TOE-%20Numpy/streamlit%20tic%20tac%20toe.py) — Streamlit web app version with responsive UI board
 
+### 📂 `MATPLOTLIB/`
+The data visualization section housing structured class notes and interactive Jupyter notebooks covering graphing, layout configuration, and customized styling.
+- [Matplotlib_class1.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/MATPLOTLIB/Matplotlib_class1.ipynb) — Matplotlib fundamentals: Figure vs Axes, stateful/OO interfaces, subplots, line/bar plots, canvas sizes (DPI/figsize), custom markers, styles, axis bounds, and specialized plots (scatter, histogram, boxplot).
+
 ### 📂 `PANDAS/`
 The Pandas learning section housing structured class notes and interactive Jupyter notebooks covering the foundational and advanced aspects of Pandas data analysis.
 
@@ -262,6 +303,14 @@ Structured Pandas curriculum mapping out class-by-class learning:
 - [pandas_class4.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/pandas_class4.ipynb) — Data Selection & Filtering: Boolean indexing, multiple condition filtering (`&`, `|`, `~`), string operations, and filtering with the `.query()` method.
 - [Pandas_Class5.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_Class5.ipynb) — Sorting & Descriptive Statistics: Sorting rows/columns (`sort_values`, `sort_index`), computing metrics (mean, median, std, min, max, describe), counting values (`value_counts`), and examining correlation/covariance.
 - [Pandas_class6.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_class6.ipynb) — GroupBy & Aggregations: Split-Apply-Combine workflow, `.groupby()` operations, custom aggregations with `.agg()`, pivot tables, and crosstabs.
+- [Pandas_class7.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_class7.ipynb) — Merging, Joining & Concatenation: Stacking data via `pd.concat()`, performing SQL-style inner, outer, left, and right joins via `pd.merge()`, and index-aligned alignment via `.join()`.
+- [Pandas_class8.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_class8.ipynb) — Time Series: Parsing to datetime with `pd.to_datetime()`, date-time index, resampling, and date filtering mini-project.
+- [Pandas_class9.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_class9.ipynb) — Advanced Tricks & Performance: Applying custom functions along rows/columns (`apply()`) and element-wise maps on series (`map()`) using lambda functions.
+
+### 📂 `PANDAS/SHERIYANS Pandas/NUMPY Project/`
+Applied numerical and data analysis project evaluating student records:
+- [Stud Que.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/NUMPY%20Project/Stud%20Que.ipynb) — Answering 14 advanced student queries (efficiency, performance categorizations, score levels, attendance vs self-study analysis).
+- `student_performance.csv` — Student records database (1,000,000+ entries) containing parameters like study hours, attendance, participation, scores, etc.
 
 ### 📂 `Python Project/File and Exception Handling/`
 A **CRUD file manager** application demonstrating Python's `pathlib` and `os` modules. Supports creating, reading, updating, and deleting both files and folders with comprehensive exception handling.
@@ -280,6 +329,7 @@ A **full-featured Library Management System** with two interfaces:
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50"/><br><b>Python 3</b></td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="50"/><br><b>NumPy</b></td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="50"/><br><b>Pandas</b></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="50" style="background-color: white; padding: 2px; border-radius: 4px;"/><br><b>Matplotlib</b></td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="50"/><br><b>Jupyter</b></td>
     <td align="center"><img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" width="50"/><br><b>Streamlit</b></td>
   </tr>
@@ -300,6 +350,7 @@ A **full-featured Library Management System** with two interfaces:
 |---------|---------|
 | `numpy` | Numerical computing, array manipulation, linear algebra operations |
 | `pandas` | Data analysis, DataFrames, Series, data inspection, cleaning, filtering & aggregation |
+| `matplotlib` | Creating static, interactive, and animated data visualizations in Python |
 | `streamlit` | Building interactive web applications and dashboards |
 | `json` | Reading and writing JSON data for persistent storage |
 | `pathlib` | Cross-platform file system path operations |
@@ -323,6 +374,11 @@ A **full-featured Library Management System** with two interfaces:
 | [pandas_class4.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/pandas_class4.ipynb) | `PANDAS/SHERIYANS Pandas/` | Advanced Selection: boolean indexing, multi-condition filtering (`&`, `|`, `~`), cleaner query syntax (`.query()`), and string manipulations (`.str`) |
 | [Pandas_Class5.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_Class5.ipynb) | `PANDAS/SHERIYANS Pandas/` | Sorting and Descriptive Statistics: sorting by index or values, aggregation metrics (mean, median, std, etc.), counting frequencies (`value_counts`), correlation (`corr`) and covariance (`cov`) |
 | [Pandas_class6.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_class6.ipynb) | `PANDAS/SHERIYANS Pandas/` | Advanced aggregation: Split-Apply-Combine workflow, `groupby` operations, multi-column aggregation, pivot tables, and crosstabs |
+| [Pandas_class7.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_class7.ipynb) | `PANDAS/SHERIYANS Pandas/` | Merging & joining: combines tables via vertical/horizontal concatenation (`concat`), SQL-style joins (`merge`), and index alignment (`join`) |
+| [Pandas_class8.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_class8.ipynb) | `PANDAS/SHERIYANS Pandas/` | Time Series: datetime format parsing (`pd.to_datetime`), index configuration, resampling aggregates, and date range filters |
+| [Pandas_class9.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_class9.ipynb) | `PANDAS/SHERIYANS Pandas/` | Advanced Tricks & Performance: custom functions with `.apply()` and `.map()` combined with inline lambda definitions |
+| [Stud Que.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/NUMPY%20Project/Stud%20Que.ipynb) | `PANDAS/SHERIYANS Pandas/NUMPY Project/` | Applied analytical queries on a large-scale student performance CSV (1,000,000+ entries) using NumPy and Pandas |
+| [Matplotlib_class1.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/MATPLOTLIB/Matplotlib_class1.ipynb) | `MATPLOTLIB/` | Data visualization: Canvas anatomy, OO layout styling, marker lines, subplot grids, bounds, and basic/specialized charts |
 
 ---
 
@@ -370,7 +426,27 @@ A **full-featured Library Management System** with two interfaces:
 
 ---
 
-### 📁 Project 3: File & Exception Handler
+### 📈 Project 3: Student Performance Analysis
+
+| Detail | Description |
+|--------|-------------|
+| **Name** | Student Performance Analysis |
+| **Location** | [NUMPY Project](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/NUMPY%20Project/) |
+| **Description** | In-depth analysis of a large student dataset (1,000,000+ records) utilizing NumPy and Pandas. Computes metrics such as study efficiency, groups performance levels, and answers specific analytical questions regarding student study habits and grades. |
+| **Skills Learned** | Handling large-scale data, computing analytical metrics, data binning, performance optimization |
+| **Concepts Used** | `pd.read_csv()`, boolean masking, aggregate calculations (`max()`, `mean()`), column creation (`score_level`, `study_efficiency`), data mapping |
+| **Libraries** | `numpy`, `pandas` |
+| **Difficulty** | ⭐⭐⭐ Intermediate |
+
+**Key Features:**
+- 📈 Analysis of 1,000,000+ rows of student records
+- ✍️ Resolving 14 real-world data queries (e.g. highest study hours, top study efficiency)
+- 🗂️ Creation of score level categories and study categories
+- 🧠 Optimized filtering and computations using vector operations
+
+---
+
+### 📁 Project 4: File & Exception Handler
 
 | Detail | Description |
 |--------|-------------|
@@ -427,15 +503,19 @@ A **full-featured Library Management System** with two interfaces:
 ├── ✅ Data Cleaning Essentials (isna, dropna, fillna, astype, replace, drop_duplicates) (Class 3)
 ├── ✅ Data Selection & Filtering (boolean indexing, logical & | ~, query, string methods) (Class 4)
 ├── ✅ Sorting & Descriptive Statistics (sort_values, sort_index, corr, cov, value_counts) (Class 5)
-└── ✅ GroupBy & Aggregations (split-apply-combine, groupby, agg, pivot_table, crosstab) (Class 6)
+├── ✅ GroupBy & Aggregations (split-apply-combine, groupby, agg, pivot_table, crosstab) (Class 6)
+├── ✅ Merging, Joining & Concatenation (Class 7)
+├── ✅ Time Series & DateTime index resampling (Class 8)
+├── ✅ Advanced Operations, Custom Functions & Map/Lambdas (Class 9)
+└── ✅ Student Performance Analysis Project (NUMPY Project)
 
 🟩 Phase 5 — Statistics & Probability (Completed)
 ├── ✅ Descriptive Statistics
 ├── ✅ Probability Distributions
 └── ✅ Hypothesis Testing
 
-🟥 Phase 6 — Data Visualization (Upcoming)
-├── 🔜 Matplotlib Basics
+🟩 Phase 6 — Data Visualization (In Progress)
+├── ✅ Matplotlib Basics (Class 1)
 ├── 🔜 Seaborn Statistical Plots
 └── 🔜 Advanced Visualization Techniques
 
@@ -487,8 +567,8 @@ A **full-featured Library Management System** with two interfaces:
 
   <tr>
     <td>📊 Data Visualization</td>
-    <td>░░░░░░░░░░░░░░░░░░░░ 0%</td>
-    <td>🔜 Upcoming</td>
+    <td>██████░░░░░░░░░░░░░░ 30%</td>
+    <td>🟡 In Progress</td>
   </tr>
 
   <tr>
@@ -530,6 +610,12 @@ A **full-featured Library Management System** with two interfaces:
 - ✅ Data inspection, cleaning, filtering & selection
 - ✅ Sorting, descriptive statistics, correlation & covariance
 - ✅ GroupBy, aggregations, pivot tables & crosstabs
+- ✅ Merging, joining & concatenating DataFrames
+- ✅ Time-series resampling & date conversions
+- ✅ Custom function mapping with `.apply()` & `.map()`
+- ✅ Data visualization with Matplotlib (canvas, axes, OO interface)
+- ✅ Customized line styling, markers, and axis bounds
+- ✅ Statistical plots: bar, scatter, histogram, boxplot
 
 </td>
   </tr>
@@ -599,14 +685,14 @@ graph LR
 
 | Phase | Topics | Status |
 |-------|--------|--------|
-| **Phase 1** | Python, OOP, File Handling, Projects | ✅ Completed |
-| **Phase 2** | NumPy — Arrays, Operations, Aggregations | ✅ Completed |
-| **Phase 3** | Pandas — DataFrames, Cleaning, Filtering, Stats, GroupBy | ✅ Completed |
-| **Phase 4** | Statistics, Probability, Hypothesis Testing | ✅ Completed |
-| **Phase 5** | Matplotlib, Seaborn — Data Visualization | 🔜 Upcoming |
-| **Phase 6** | Scikit-Learn — ML Algorithms & Pipelines | 🔜 Upcoming |
-| **Phase 7** | Deep Learning — Neural Networks | 🔜 Upcoming |
-| **Phase 8** | GenAI — LLMs, Prompt Engineering, RAG | 🔜 Upcoming |
+| **Phase 1** | NumPy Foundations | ✅ Completed |
+| **Phase 2** | NumPy Applied Project (Tic Tac Toe) | ✅ Completed |
+| **Phase 3** | Python Projects (Library Management, CRUD File Manager) | ✅ Completed |
+| **Phase 4** | Pandas Foundations (DataFrames, Merging, TimeSeries, Custom Mapping) | ✅ Completed |
+| **Phase 5** | Statistics & Probability (Hypothesis Testing, Distributions) | ✅ Completed |
+| **Phase 6** | Data Visualization (Matplotlib & Seaborn) | 🟡 In Progress (Matplotlib Completed) |
+| **Phase 7** | Machine Learning (Supervised/Unsupervised, Tuning) | 🔜 Upcoming |
+| **Phase 8** | GenAI (LLMs, Prompt Engineering, RAG, Projects) | 🔜 Upcoming |
 
 ---
 
