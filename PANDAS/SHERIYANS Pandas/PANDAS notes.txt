@@ -111,4 +111,7 @@ used to merge the data of two dataframes based on the common column ('Product_ID
 it includes only the common items in both the tables
 
 37. pd.merge(df4, df1, on="Product_ID",how="outer") 
-.#it inlcludes the whole both tables
+#it inlcludes the whole both tables
+
+38. pd.to_datetime(products['Purchase_Date'] , errors="coerce")
+used to convert the data into datetime format and errors="coerce" is used to convert the data into datetime format and if there is any error then it will convert it into NaT(Not a Time)
