@@ -12,3 +12,10 @@ used to give the graph a title
 
 5. plt.figure(figsize=(5,2))
 used to design an empty white canvas plot in specific dimensions
+
+6. plt.subplot(2,2,4)
+used to create the 4 graphs in one screen
+subplot(row,columns,index)
+
+7. plt.grid(True)
+used to display the grid on the plot
