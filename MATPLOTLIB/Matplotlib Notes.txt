@@ -19,3 +19,15 @@ subplot(row,columns,index)
 
 7. plt.grid(True)
 used to display the grid on the plot
+
+8. ax= fig.add_axes([.1,.1,.8,.8])
+used to add axes to the plot
+
+9. (.1,.1) -> location of axes
+   (.8,.8) -> size of axes
+
+10. ax.plot(x,y)
+    ax.set_xlabel("xlabel")
+    ax.set_ylabel("ylabel")
+    ax.set_title("title")
+    ax.grid(True)
