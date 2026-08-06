@@ -31,3 +31,32 @@ used to add axes to the plot
     ax.set_ylabel("ylabel")
     ax.set_title("title")
     ax.grid(True)
+
+11. plt.plot(x,y,marker="o",linewidth=2.5,label="Meri Line",
+            linestyle="--",markersize=10,markeredgecolor='red')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+used to plot line graph
+marker -> design of the point
+linewidth -> thickness of the line
+label -> label of the line
+linestyle -> style of the line
+markersize -> size of the point
+markeredgecolor -> color of the edge of the point
+
+12. xlim() and ylim()
+used to apply limit of x and y in graphs
+
+13. use of plt.xlim(-10,70) and
+plt.ylim(-100,800) --> applied limit of x and y
+
+14. plt.bar(x,y)
+used to plot bar graph
+
+15. plt.barh(x,y)
+used to plot horizontal bar graph
+
+16. plt.scatter(x,y), plt.hist(y), plt.boxplot(marks)
+used to plot scatterd graph and histogram and boxplot
