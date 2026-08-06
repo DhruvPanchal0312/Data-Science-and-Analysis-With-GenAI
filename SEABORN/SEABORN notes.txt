@@ -1,0 +1,10 @@
+1. sns.scatterplot(x=tips['total_bill'], y=tips['tip'])
+used to plot a scatterplot 
+
+2. sns.lineplot(x=tips['day'], y=tips['total_bill'], estimator='mean', marker='X')
+used to plot a lineplot with mean as estimator and 'X' as marker
+
+3. sns.set_palette("deep") 
+sns.set_style("whitegrid")
+sns.scatterplot(x=tips['total_bill'], y=tips['tip'], hue=tips['sex'])
+used to plot a scatterplot with deep palette and whitegrid style
