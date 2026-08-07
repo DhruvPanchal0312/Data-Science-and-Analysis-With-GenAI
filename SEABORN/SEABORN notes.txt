@@ -20,3 +20,14 @@ used to get count of each category
 
 7. sns.violinplot(x="day", y="total_bill", data=tips)
 used to plot a violinplot showing distribution
+
+8. | Plot        |          Best for                            |
+|----------------|----------------------------------------------|
+| **barplot**    | Compare average values across categories     |
+| **countplot**  | Show how many items fall in each category    |
+| **boxplot**    | See median, quartiles, and outliers          |  
+| **violinplot** | Same as boxplot + shows distribution         |
+| **stripplot**  | View every observation (good for small data) |
+| **swarmplot**  | Like stripplot but avoids overlap            |
+
+9. 
