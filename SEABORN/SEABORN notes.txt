@@ -11,3 +11,12 @@ used to plot a scatterplot with deep palette and whitegrid style
 
 4. sns.boxplot(x=tips['day'], y=tips['total_bill'])
 used to plot a boxplot
+
+5. sns.barplot(x="day" , y="tip", data=tips)
+used to get avg on the basis of category 
+
+6. sns.countplot(x="day", data= tips)
+used to get count of each category 
+
+7. sns.violinplot(x="day", y="total_bill", data=tips)
+used to plot a violinplot showing distribution
