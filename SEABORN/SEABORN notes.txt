@@ -8,3 +8,6 @@ used to plot a lineplot with mean as estimator and 'X' as marker
 sns.set_style("whitegrid")
 sns.scatterplot(x=tips['total_bill'], y=tips['tip'], hue=tips['sex'])
 used to plot a scatterplot with deep palette and whitegrid style
+
+4. sns.boxplot(x=tips['day'], y=tips['total_bill'])
+used to plot a boxplot
