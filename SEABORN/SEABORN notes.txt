@@ -9,6 +9,18 @@ sns.set_style("whitegrid")
 sns.scatterplot(x=tips['total_bill'], y=tips['tip'], hue=tips['sex'])
 used to plot a scatterplot with deep palette and whitegrid style
 
+| sns.scatterplot     | Plots individual points. Can show clusters and relationships.                                             |
+|-----------------------|----------------------------------------------------------------------------------------------------------|
+| **sns.lineplot**    | Connects points with lines. Shows trends over ordered categories or time.                              |
+| **sns.histplot**    | Shows distribution of a single variable using bins (histogram) or smooth curve (KDE).                  |
+| **sns.kdeplot**     | Density plot showing probability distribution. Good for comparing distributions.                         |
+| **sns.boxplot**     | Shows median, quartiles, outliers for each category. Good for comparing spread and central tendency.     |
+| **sns.violinplot**  | Like boxplot but also shows the distribution shape.                                                      |
+| **sns.barplot**     | Shows mean (by default) for each category with confidence interval. Good for comparing averages.         |
+| **sns.countplot**   | Counts occurrences of each category. Good for categorical data frequencies.                          |
+| **sns.pairplot**    | Shows pairwise relationships for all variables in a dataset. Excellent for initial exploration.        |
+| **sns.jointplot**   | Shows bivariate distribution of two variables with marginal distributions.                             |
+
 4. sns.boxplot(x=tips['day'], y=tips['total_bill'])
 used to plot a boxplot
 
@@ -45,3 +57,16 @@ used to plot a histogram with 50 bins
 
 12. sns.histplot(x=tips['total_bill'], hue=tips['day'],bins=20, kde=True, color="purple")
 used to plot a histplot with hue as days 
+
+13. sns.regplot(x=tips['total_bill'] ,y=tips['tip'],color="red")
+used to plot regrresion plot with a regrresion line in the middle
+
+14. sns.lmplot(x="total_bill",y="tip",hue="day", data=tips, )
+used to plot regrresion plot with a regrresion line in the middle but with different hue and different columns
+
+15. sns.pairplot(tips)
+used to plot a pairplot showing relationship between all the columns in a dataframe
+
+16. sns.jointplot(x="total_bill",y="tip",hue="day", data=tips,kind="kde",  )
+used to plot joint plot that shows scatter + histogram/kde plot in a same plot
+
