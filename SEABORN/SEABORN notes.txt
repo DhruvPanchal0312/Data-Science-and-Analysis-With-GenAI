@@ -70,3 +70,8 @@ used to plot a pairplot showing relationship between all the columns in a datafr
 16. sns.jointplot(x="total_bill",y="tip",hue="day", data=tips,kind="kde",  )
 used to plot joint plot that shows scatter + histogram/kde plot in a same plot
 
+17. sns.heatmap(tips.corr(numeric_only=True), annot=True)
+used to generate heatmap of the corr bw numeric_only values with values written inside the plot
+
+18. sns.clustermap(tips.corr(numeric_only=True), annot=True)
+used to generate heatmap of the corr bw numeric_only values with values written inside the plot
