@@ -31,3 +31,17 @@ used to plot a violinplot showing distribution
 | **swarmplot**  | Like stripplot but avoids overlap            |
 
 9. 
+| Plot          |          What it shows                                                   |
+|---------------|--------------------------------------------------------------------------|
+| **histplot**  | Counts of values in bins (shows frequency distribution)                  |
+| **kdeplot**   | Smooth curve estimating probability distribution (no bins)               |
+| **rugplot**   | Tiny vertical lines for each observation on the axis (rarely used alone) |
+
+10. sns.kdeplot(x=tips['total_bill'], hue=tips['day'], color="purple")
+used to plot a kdeplot
+
+11. sns.histplot(tips['total_bill'], bins=50, color="purple")
+used to plot a histogram with 50 bins
+
+12. sns.histplot(x=tips['total_bill'], hue=tips['day'],bins=20, kde=True, color="purple")
+used to plot a histplot with hue as days 
