@@ -12,6 +12,8 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white" alt="Seaborn" />
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel" />
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter Notebook" />
 </p>
@@ -89,9 +91,10 @@ dhruvpanchal0312@gmail.com
 | 3 | Build **real-world Python projects** with OOP and file I/O | ✅ Completed |
 | 4 | Develop interactive web apps with **Streamlit** | ✅ Completed |
 | 5 | Learn **Statistics & Probability** for Data Science | ✅ Completed |
-| 6 | Understand **Data Visualization** with Matplotlib & Seaborn | 🟡 In Progress |
-| 7 | Explore **Machine Learning** fundamentals | 🔜 Upcoming |
-| 8 | Dive into **GenAI** concepts and applications | 🔜 Upcoming |
+| 6 | Understand **Data Visualization** with Matplotlib & Seaborn | ✅ Completed |
+| 7 | Master Spreadsheet Analysis using **Excel** (Formulas & Logic) | ✅ Completed |
+| 8 | Explore **Machine Learning** fundamentals | 🔜 Upcoming |
+| 9 | Dive into **GenAI** concepts and applications | 🔜 Upcoming |
 
 ---
 
@@ -100,7 +103,12 @@ dhruvpanchal0312@gmail.com
 ```
 📦 Data Science and Analytics with GenAI
 │
+├── 📂 EXCEL/                                    # 📈 Spreadsheet Analysis & Formulas
+│   ├── 📄 Book1.xlsx                            # Basic formulas, IF conditions, worksheet operations
+│   └── 📄 Details.xlsx                          # Sample data with AND, OR logical operators
+│
 ├── 📂 MATPLOTLIB/                               # 📊 Data Visualization with Matplotlib
+│   ├── 📝 Matplotlib Notes.txt                  # Reference notes for Matplotlib commands
 │   └── 📓 Matplotlib_class1.ipynb               # Line/bar/scatter plots, subplots, OOP interface & customization
 │
 ├── 📂 NUMPY/
@@ -140,6 +148,14 @@ dhruvpanchal0312@gmail.com
 │       ├── 🐍 app.py                            # Streamlit web dashboard
 │       ├── 📄 database.json                     # Persistent data store
 │       └── 📄 library.json                      # Library catalog & members
+│
+├── 📂 SEABORN/                                  # 📊 Statistical Data Visualization
+│   ├── 📝 SEABORN notes.txt                     # Quick reference notes and comparison tables
+│   ├── 📓 Seaborn_class1.ipynb                  # Scatter plots, line plots, styles, and palettes
+│   ├── 📓 Seaborn_class2.ipynb                  # Categorical plots (barplot, boxplot, violinplot, countplot, etc.)
+│   ├── 📓 Seaborn_class3.ipynb                  # Distribution plots (histplot, kdeplot, rugplot)
+│   ├── 📓 Seaborn_class4.ipynb                  # Regression & multi-plots (regplot, lmplot, jointplot, pairplot)
+│   └── 📓 Seaborn_class5.ipynb                  # Matrix plots (heatmap, clustermap)
 │
 └── 📄 README.md                                 # You are here! 👋
 ```
@@ -243,7 +259,42 @@ dhruvpanchal0312@gmail.com
   - Detailed styling: colors (`color`/`c`), line widths (`linewidth`/`lw`), styles (`linestyle`/`ls`), and markers
   - Restricting x/y viewing bounds (`plt.xlim()`/`plt.ylim()`, `ax.set_xlim()`/`ax.set_ylim()`)
 - **Plot Types**
-  - Line plots, Bar plots, Scatter plots, Histograms, and Boxplots
+  - Line plots, Bar plots (vertical & horizontal), Scatter plots, Histograms, and Boxplots
+
+### 📊 Seaborn — Statistical Data Visualization
+- **Plot Customization & Aesthetics**
+  - Theme setting (`sns.set_style("whitegrid")`, etc.)
+  - Color palettes configuration (`sns.set_palette("deep")`)
+- **Relational Plots**
+  - Scatter plots (`sns.scatterplot()`) with semantic mapping (hue, size, style)
+  - Line plots (`sns.lineplot()`) with mean/median estimators and confidence intervals
+- **Categorical Plots**
+  - Comparing distributions across categories: `sns.boxplot()`, `sns.violinplot()`
+  - Comparing statistical estimates: `sns.barplot()`, `sns.pointplot()`
+  - Categorical scatter plots: `sns.stripplot()`, `sns.swarmplot()` (non-overlapping)
+  - Frequency distributions of categories: `sns.countplot()`
+- **Distribution Plots**
+  - Univariate histograms (`sns.histplot()`) with bin size control, density/KDE curves, and hue grouping
+  - Kernel Density Estimate plots (`sns.kdeplot()`) for continuous probability distributions
+  - Marginal/tick plots (`sns.rugplot()`)
+- **Regression & Grid Plots**
+  - Simple linear regression visualization: `sns.regplot()`
+  - Faceted regression grids: `sns.lmplot()` with multi-column/row facets and hue splitting
+  - Joint plots (`sns.jointplot()`) combining bivariate scatter/KDE plots with marginal histograms/KDEs
+  - Pairwise relationships matrix: `sns.pairplot()` for holistic dataset feature comparison
+- **Matrix Plots**
+  - Rectangular data correlation maps: `sns.heatmap()` with value annotation (`annot=True`)
+  - Hierarchically-clustered heatmaps: `sns.clustermap()` showing data grouping patterns
+
+### 📈 Excel — Spreadsheet Data Analysis
+- **Core Operations & Formatting**
+  - Worksheet manipulation and layout setup
+  - Sample dataset management and row/column sorting
+- **Mathematical & Statistical Formulas**
+  - Basic calculations (`SUM`, `AVERAGE`, etc.)
+- **Conditional & Logical Functions**
+  - Single/Nested logical condition checks (`IF`)
+  - Combining conditions with logical operators (`AND`, `OR`)
 
 ### 🐍 Python — Core Programming
 - **File Handling**
@@ -287,8 +338,14 @@ A complete **Tic Tac Toe game** showcasing applied NumPy skills. Features two ve
 - [main.py](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/NUMPY/TIC%20TAC%20TOE-%20Numpy/main.py) — Console-based game with color-coded terminal UI, custom exceptions, and strategic AI (win → block → center → random)
 - [streamlit tic tac toe.py](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/NUMPY/TIC%20TAC%20TOE-%20Numpy/streamlit%20tic%20tac%20toe.py) — Streamlit web app version with responsive UI board
 
+### 📂 `EXCEL/`
+Spreadsheet analytical files containing practical exercises on Excel formulas, functions, and logic.
+- [Book1.xlsx](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/EXCEL/Book1.xlsx) — Basic formulas, conditional formatting, math calculations, and usage of the `IF` logic.
+- [Details.xlsx](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/EXCEL/Details.xlsx) — Sample database containing operations demonstrating the usage of `AND` / `OR` logical operators.
+
 ### 📂 `MATPLOTLIB/`
 The data visualization section housing structured class notes and interactive Jupyter notebooks covering graphing, layout configuration, and customized styling.
+- [Matplotlib Notes.txt](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/MATPLOTLIB/Matplotlib%20Notes.txt) — Reference notes for Matplotlib usage and commands.
 - [Matplotlib_class1.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/MATPLOTLIB/Matplotlib_class1.ipynb) — Matplotlib fundamentals: Figure vs Axes, stateful/OO interfaces, subplots, line/bar plots, canvas sizes (DPI/figsize), custom markers, styles, axis bounds, and specialized plots (scatter, histogram, boxplot).
 
 ### 📂 `PANDAS/`
@@ -320,6 +377,15 @@ A **full-featured Library Management System** with two interfaces:
 - [main.py](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/Python%20Project/LIBRARY%20MANAGEMENT%20SYSTEM/main.py) — CLI application with OOP architecture, JSON persistence, book/member management, and borrow/return tracking.
 - [app.py](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/Python%20Project/LIBRARY%20MANAGEMENT%20SYSTEM/app.py) — Modern Streamlit web dashboard with metrics, forms, and real-time database updates.
 
+### 📂 `SEABORN/`
+The statistical data visualization directory containing Jupyter notebooks and a quick reference notes sheet.
+- [SEABORN notes.txt](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/SEABORN/SEABORN%20notes.txt) — Quick-reference guide compiling plotting syntaxes, comparison tables for categorical and distribution plots, and usage descriptions.
+- [Seaborn_class1.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/SEABORN/Seaborn_class1.ipynb) — Relational visualizations: setting palettes, styles (`whitegrid`), line plots, scatter plots with hue/semantic styling.
+- [Seaborn_class2.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/SEABORN/Seaborn_class2.ipynb) — Categorical data charting: comparing barplot, countplot, boxplot, violinplot, stripplot, and swarmplot.
+- [Seaborn_class3.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/SEABORN/Seaborn_class3.ipynb) — Distribution charting: histplot, kdeplot, rugplot, customizing bins, density scaling, and hue-splitting.
+- [Seaborn_class4.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/SEABORN/Seaborn_class4.ipynb) — Bivariate and multivariate analysis: linear regressions (`regplot`, `lmplot`), combined scatter/marginal histograms (`jointplot`), and dataset pairwise charts (`pairplot`).
+- [Seaborn_class5.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/SEABORN/Seaborn_class5.ipynb) — Correlation & matrix visuals: creating structured heatmaps and hierarchical clustermaps with numerical annotation.
+
 ---
 
 ## 🛠️ Technologies Used
@@ -330,15 +396,16 @@ A **full-featured Library Management System** with two interfaces:
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="50"/><br><b>NumPy</b></td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="50"/><br><b>Pandas</b></td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="50" style="background-color: white; padding: 2px; border-radius: 4px;"/><br><b>Matplotlib</b></td>
+    <td align="center"><img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" width="50"/><br><b>Seaborn</b></td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="50"/><br><b>Jupyter</b></td>
-    <td align="center"><img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" width="50"/><br><b>Streamlit</b></td>
   </tr>
   <tr>
+    <td align="center"><img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" width="50"/><br><b>Streamlit</b></td>
+    <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Microsoft_Office_Excel_%282018%E2%80%93present%29.svg" width="50"/><br><b>MS Excel</b></td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50"/><br><b>Git</b></td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50"/><br><b>GitHub</b></td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/json/json-original.svg" width="50"/><br><b>JSON</b></td>
     <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="50"/><br><b>VS Code</b></td>
-    <td align="center"><img src="https://colab.research.google.com/img/colab_favicon_256px.png" width="50"/><br><b>Google Colab</b></td>
   </tr>
 </table>
 
@@ -351,6 +418,7 @@ A **full-featured Library Management System** with two interfaces:
 | `numpy` | Numerical computing, array manipulation, linear algebra operations |
 | `pandas` | Data analysis, DataFrames, Series, data inspection, cleaning, filtering & aggregation |
 | `matplotlib` | Creating static, interactive, and animated data visualizations in Python |
+| `seaborn` | Statistical data visualization, theme/palette styling, relationship, distribution & matrix plots |
 | `streamlit` | Building interactive web applications and dashboards |
 | `json` | Reading and writing JSON data for persistent storage |
 | `pathlib` | Cross-platform file system path operations |
@@ -379,6 +447,11 @@ A **full-featured Library Management System** with two interfaces:
 | [Pandas_class9.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/Pandas_class9.ipynb) | `PANDAS/SHERIYANS Pandas/` | Advanced Tricks & Performance: custom functions with `.apply()` and `.map()` combined with inline lambda definitions |
 | [Stud Que.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/PANDAS/SHERIYANS%20Pandas/NUMPY%20Project/Stud%20Que.ipynb) | `PANDAS/SHERIYANS Pandas/NUMPY Project/` | Applied analytical queries on a large-scale student performance CSV (1,000,000+ entries) using NumPy and Pandas |
 | [Matplotlib_class1.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/MATPLOTLIB/Matplotlib_class1.ipynb) | `MATPLOTLIB/` | Data visualization: Canvas anatomy, OO layout styling, marker lines, subplot grids, bounds, and basic/specialized charts |
+| [Seaborn_class1.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/SEABORN/Seaborn_class1.ipynb) | `SEABORN/` | Relational plotting: scatter plots, line plots with mean estimators, customizing styles (`whitegrid`) and palettes (`deep`) |
+| [Seaborn_class2.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/SEABORN/Seaborn_class2.ipynb) | `SEABORN/` | Categorical visualizations: box plots, bar plots, count plots, violin plots, strip plots, and swarm plots |
+| [Seaborn_class3.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/SEABORN/Seaborn_class3.ipynb) | `SEABORN/` | Distribution charting: histograms (`histplot`), density estimation (`kdeplot`), and tick indicators (`rugplot`) with custom bins, KDE, and hue |
+| [Seaborn_class4.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/SEABORN/Seaborn_class4.ipynb) | `SEABORN/` | Regression & grids: bivariate regression lines (`regplot`), multi-plot grids (`lmplot`), combination charts (`jointplot`), and pairwise matrix exploration (`pairplot`) |
+| [Seaborn_class5.ipynb](file:///c:/Users/dhruv/OneDrive/Desktop/DHRUV/Data%20Science%20and%20Analytics%20with%20GenAl/SEABORN/Seaborn_class5.ipynb) | `SEABORN/` | Matrix representations: annotating correlation heatmaps (`heatmap`) and hierarchical grouping maps (`clustermap`) |
 
 ---
 
@@ -514,17 +587,20 @@ A **full-featured Library Management System** with two interfaces:
 ├── ✅ Probability Distributions
 └── ✅ Hypothesis Testing
 
-🟩 Phase 6 — Data Visualization (In Progress)
+🟩 Phase 6 — Data Visualization (Completed)
 ├── ✅ Matplotlib Basics (Class 1)
-├── 🔜 Seaborn Statistical Plots
-└── 🔜 Advanced Visualization Techniques
+└── ✅ Seaborn Statistical Plots (Classes 1-5)
 
-🟥 Phase 7 — Machine Learning (Upcoming)
+🟩 Phase 7 — Spreadsheet Analysis with Excel (Completed)
+├── ✅ Basic formulas, formatting & IF conditions
+└── ✅ Logical operators (AND, OR) in worksheets
+
+🟥 Phase 8 — Machine Learning (Upcoming)
 ├── 🔜 Supervised Learning
 ├── 🔜 Unsupervised Learning
 └── 🔜 Model Evaluation & Tuning
 
-🟥 Phase 8 — GenAI (Upcoming)
+🟥 Phase 9 — GenAI (Upcoming)
 ├── 🔜 GenAI Fundamentals
 ├── 🔜 LLMs & Prompt Engineering
 └── 🔜 Applied GenAI Projects
@@ -567,8 +643,14 @@ A **full-featured Library Management System** with two interfaces:
 
   <tr>
     <td>📊 Data Visualization</td>
-    <td>██████░░░░░░░░░░░░░░ 30%</td>
-    <td>🟡 In Progress</td>
+    <td>████████████████████ 100%</td>
+    <td>✅ Completed</td>
+  </tr>
+
+  <tr>
+    <td>📈 Excel Data Analysis</td>
+    <td>████████████████████ 100%</td>
+    <td>✅ Completed</td>
   </tr>
 
   <tr>
@@ -602,7 +684,7 @@ A **full-featured Library Management System** with two interfaces:
 </td>
     <td>
 
-**Data Science Libraries**
+**Data Science Libraries & Spreadsheet Tools**
 - ✅ NumPy array operations
 - ✅ Broadcasting & vectorized computing
 - ✅ Statistical aggregation functions
@@ -616,6 +698,11 @@ A **full-featured Library Management System** with two interfaces:
 - ✅ Data visualization with Matplotlib (canvas, axes, OO interface)
 - ✅ Customized line styling, markers, and axis bounds
 - ✅ Statistical plots: bar, scatter, histogram, boxplot
+- ✅ Seaborn style & palette configuration
+- ✅ Relational, Categorical, and Distribution plotting in Seaborn
+- ✅ Bivariate regression, multi-plots, pairplot & jointplot
+- ✅ Matrix visualizations: Heatmap & Clustermap with annotation
+- ✅ MS Excel formulas, functions, conditional IF, AND/OR logical operators
 
 </td>
   </tr>
@@ -676,11 +763,12 @@ A **full-featured Library Management System** with two interfaces:
 graph LR
     A[✅ Python Projects] --> B[✅ NumPy]
     B --> C[✅ Pandas]
-    C --> D[📊 Matplotlib & Seaborn]
-    D --> E[📈 Statistics & Probability]
-    E --> F[🤖 Machine Learning]
-    F --> G[🧠 Deep Learning]
-    G --> H[🚀 GenAI & LLMs]
+    C --> D[✅ Matplotlib & Seaborn]
+    D --> E[✅ Statistics & Probability]
+    E --> F[✅ Excel Data Analysis]
+    F --> G[🤖 Machine Learning]
+    G --> H[🧠 Deep Learning]
+    H --> I[🚀 GenAI & LLMs]
 ```
 
 | Phase | Topics | Status |
@@ -690,9 +778,10 @@ graph LR
 | **Phase 3** | Python Projects (Library Management, CRUD File Manager) | ✅ Completed |
 | **Phase 4** | Pandas Foundations (DataFrames, Merging, TimeSeries, Custom Mapping) | ✅ Completed |
 | **Phase 5** | Statistics & Probability (Hypothesis Testing, Distributions) | ✅ Completed |
-| **Phase 6** | Data Visualization (Matplotlib & Seaborn) | 🟡 In Progress (Matplotlib Completed) |
-| **Phase 7** | Machine Learning (Supervised/Unsupervised, Tuning) | 🔜 Upcoming |
-| **Phase 8** | GenAI (LLMs, Prompt Engineering, RAG, Projects) | 🔜 Upcoming |
+| **Phase 6** | Data Visualization (Matplotlib & Seaborn) | ✅ Completed |
+| **Phase 7** | Excel Spreadsheet Analysis (Formulas, IF, AND/OR logic) | ✅ Completed |
+| **Phase 8** | Machine Learning (Supervised/Unsupervised, Tuning) | 🔜 Upcoming |
+| **Phase 9** | GenAI (LLMs, Prompt Engineering, RAG, Projects) | 🔜 Upcoming |
 
 ---
 
