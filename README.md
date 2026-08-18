@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=6C63FF&center=true&vCenter=true&width=800&lines=Data+Science+%26+Analytics+with+GenAI;Learning+Journey+%7C+Daily+Progress;Python+%7C+NumPy+%7C+Pandas+%7C+Projects" alt="Typing SVG" />
 </p>
 
-<h1 align="center">📊 Data Science & Analytics with GenAI — Learning Journey</h1>
+<h1 align="center">📊 Data Science & Analytics with GenAI — Learning Journey</h1> 
 
 <p align="center">
   <em>A comprehensive, daily-updated repository documenting my complete learning path through the <strong>Data Science and Analytics with GenAI</strong> course — from Python fundamentals to real-world projects.</em>
