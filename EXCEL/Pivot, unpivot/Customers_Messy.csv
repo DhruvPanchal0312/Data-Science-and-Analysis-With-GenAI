@@ -1,0 +1,7 @@
+FullName,Email,Phone,City,State,PIN,LifetimeSpend
+  aditi  sharma ,  ADITI @example.com , +91-98765 43210 ,delhi,DL,110001,"₹1,20,000 "
+RAJ    KAPOOR,raj.kapoor@example.com  ,091-98 76 54 321, MUMBAI ,MH,400001, 85000
+meena  iyer , MEENA.IYER@EXAMPLE.COM,  098-765-43210,bengaluru,KA,560001,"₹72,500"
+  karan  singh,karan.singh @example.com,9876543210, Pune,MH,411001,"  1,50,000"
+sonIA  verma,  sonia.verma@example.com,  +91 98-76-54-321,delhi ,DL,110002,"₹99,999"
+  ,  bad.email@@example..com,  , indecipherable ,,,
