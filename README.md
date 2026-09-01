@@ -57,7 +57,7 @@
 
 ---
 
-## 🧭 About
+## 🧭 About 
 
 This repository is a **living document** of my ongoing learning journey through the **"Data Science and Analytics with GenAI"** course. I push my code, notebooks, notes, and projects daily as I progress through each topic.
 
