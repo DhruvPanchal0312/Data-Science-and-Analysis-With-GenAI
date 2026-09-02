@@ -2,7 +2,7 @@
 used to plot a graph of any x and y value of same dimensions
 
 2. plt.xlabel("name on x axis")
-used to label the x axis
+used to label the x axis 
 
 3. plt.ylabel("name on y axis")
 used to label the y axis
