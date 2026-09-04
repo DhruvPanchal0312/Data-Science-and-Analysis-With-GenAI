@@ -76,7 +76,7 @@ https://github.com/dhruvpanchal1249
 💼 **LinkedIn**  
 https://www.linkedin.com/in/dhruv-p-735310341
 
-📧 **Email**  
+📧 **Email**   
 dhruvpanchal0312@gmail.com
 
 </p>
