@@ -164,7 +164,7 @@ dhruvpanchal0312@gmail.com
 
 ## 📘 Topics Covered
 
-### 🔢 NumPy — Numerical Python
+### 🔢 NumPy — Numerical Python 
 - **Array Creation**
   - From Python lists and nested lists
   - Using `np.zeros()`, `np.ones()`, `np.full()`
