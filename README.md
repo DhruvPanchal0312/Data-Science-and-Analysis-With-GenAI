@@ -57,7 +57,7 @@
 
 ---
 
-## 🧭 About
+## 🧭 About 
 
 This repository is a **living document** of my ongoing learning journey through the **"Data Science and Analytics with GenAI"** course. I push my code, notebooks, notes, and projects daily as I progress through each topic.
 
@@ -76,7 +76,7 @@ https://github.com/dhruvpanchal1249
 💼 **LinkedIn**  
 https://www.linkedin.com/in/dhruv-p-735310341
 
-📧 **Email**  
+📧 **Email**   
 dhruvpanchal0312@gmail.com
 
 </p>
@@ -164,7 +164,7 @@ dhruvpanchal0312@gmail.com
 
 ## 📘 Topics Covered
 
-### 🔢 NumPy — Numerical Python
+### 🔢 NumPy — Numerical Python 
 - **Array Creation**
   - From Python lists and nested lists
   - Using `np.zeros()`, `np.ones()`, `np.full()`
