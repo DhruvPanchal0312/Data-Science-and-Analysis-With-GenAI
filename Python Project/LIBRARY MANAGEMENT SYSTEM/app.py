@@ -7,7 +7,7 @@ lib = Library()
 
 st.set_page_config(
     page_title="Library Management System",
-    page_icon="📚",
+    page_icon="📚", 
     layout="wide"
 )
 
