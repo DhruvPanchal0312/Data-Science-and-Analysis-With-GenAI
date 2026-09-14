@@ -264,7 +264,7 @@ dhruvpanchal0312@gmail.com
 ### 📊 Seaborn — Statistical Data Visualization
 - **Plot Customization & Aesthetics**
   - Theme setting (`sns.set_style("whitegrid")`, etc.)
-  - Color palettes configuration (`sns.set_palette("deep")`)
+  - Color palettes configuration (`sns.set_palette("deep")`) 
 - **Relational Plots**
   - Scatter plots (`sns.scatterplot()`) with semantic mapping (hue, size, style)
   - Line plots (`sns.lineplot()`) with mean/median estimators and confidence intervals
