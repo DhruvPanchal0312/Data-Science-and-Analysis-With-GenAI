@@ -68,7 +68,7 @@ class Library:
     def list_books(self):
         if not Library.data["books"]:
             print("No books available")
-            return
+            return 
         
         print("-" * 90)
         print(f"{'Book ID':10} | {'Title':25} | {'Author':20} | {'Total':5} | {'Available':9} | {'Added On':19}")
@@ -89,7 +89,7 @@ class Library:
                 avail = 0
                 
             print(f"{b.get('id', ''):10} | {title_disp:25} | {author_disp:20} | {str(tot):<5} | {str(avail):<9} | {b.get('added_on', ''):19}")
-        print("-" * 90)
+        print("-" * 90) 
 
     # Search book function
     def search_book(self):
