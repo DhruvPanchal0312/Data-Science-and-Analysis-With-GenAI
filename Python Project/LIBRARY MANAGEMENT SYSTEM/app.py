@@ -16,7 +16,7 @@ st.title("📚 Library Management System")
 st.markdown("---")
 
 menu = st.sidebar.selectbox(
-    "Menu Navigation",
+    "Menu Navigation", 
     [
         "Home / Dashboard",
         "Add Book",
