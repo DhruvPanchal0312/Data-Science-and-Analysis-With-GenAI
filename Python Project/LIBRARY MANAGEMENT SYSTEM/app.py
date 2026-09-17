@@ -7,7 +7,7 @@ lib = Library()
 
 st.set_page_config(
     page_title="Library Management System",
-    page_icon="📚",
+    page_icon="📚", 
     layout="wide"
 )
 
@@ -16,7 +16,7 @@ st.title("📚 Library Management System")
 st.markdown("---")
 
 menu = st.sidebar.selectbox(
-    "Menu Navigation",
+    "Menu Navigation", 
     [
         "Home / Dashboard",
         "Add Book",
@@ -26,7 +26,7 @@ menu = st.sidebar.selectbox(
         "List Members",
         "Borrow Book",
         "Return Book"
-    ]
+    ] 
 )
 
 # ---------------- HOME / DASHBOARD ----------------
@@ -36,14 +36,14 @@ if menu == "Home / Dashboard":
     total_books = len(Library.data.get("books", []))
     total_members = len(Library.data.get("members", []))
 
-    available = 0
+    available = 0 
     for b in Library.data.get("books", []):
         try:
             available += int(b.get("available_copies", 0))
         except (ValueError, TypeError):
             pass
 
-    c1, c2, c3 = st.columns(3)
+    c1, c2, c3 = st.columns(3) 
     with c1:
         st.metric("Total Unique Books", total_books)
     with c2:

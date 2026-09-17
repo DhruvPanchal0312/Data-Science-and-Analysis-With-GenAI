@@ -8,7 +8,7 @@
   <em>A comprehensive, daily-updated repository documenting my complete learning path through the <strong>Data Science and Analytics with GenAI</strong> course — from Python fundamentals to real-world projects.</em>
 </p>
 
-<p align="center">  
+<p align="center">   
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
@@ -264,7 +264,7 @@ dhruvpanchal0312@gmail.com
 ### 📊 Seaborn — Statistical Data Visualization
 - **Plot Customization & Aesthetics**
   - Theme setting (`sns.set_style("whitegrid")`, etc.)
-  - Color palettes configuration (`sns.set_palette("deep")`)
+  - Color palettes configuration (`sns.set_palette("deep")`) 
 - **Relational Plots**
   - Scatter plots (`sns.scatterplot()`) with semantic mapping (hue, size, style)
   - Line plots (`sns.lineplot()`) with mean/median estimators and confidence intervals
