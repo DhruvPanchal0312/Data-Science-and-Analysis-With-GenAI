@@ -33,7 +33,7 @@
 
 ---
 
-## 📑 Table of Contents
+## 📑 Table of Contents 
 
 - [🧭 About](#-about)
 - [🎯 Learning Objectives](#-learning-objectives)
