@@ -227,7 +227,7 @@ dhruvpanchal0312@gmail.com
   - Sorting data by index or values (`.sort_index()`, `.sort_values()`)
   - Descriptive statistics: `.mean()`, `.median()`, `.std()`, `.describe()`, `.min()`, `.max()`
   - Counting unique values (`.value_counts()`)
-  - Advanced relationships: Correlation (`.corr()`) and Covariance (`.cov()`)
+  - Advanced relationships: Correlation (`.corr()`) and Covariance (`.cov()`) 
 - **GroupBy & Aggregations**
   - The Split-Apply-Combine concept
   - Grouping data using `.groupby()` with aggregate functions
