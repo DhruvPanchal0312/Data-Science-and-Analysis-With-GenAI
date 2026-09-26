@@ -98,7 +98,7 @@ dhruvpanchal0312@gmail.com
 
 ---
 
-## 📂 Folder Structure
+## 📂 Folder Structure 
 
 ```
 📦 Data Science and Analytics with GenAI
