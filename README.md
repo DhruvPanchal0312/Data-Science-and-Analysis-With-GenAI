@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=6C63FF&center=true&vCenter=true&width=850&lines=Data+Science+%26+Analytics+with+GenAI;Python+%7C+NumPy+%7C+Pandas+%7C+Seaborn+%7C+Matplotlib;Excel+%7C+Power+Query+%7C+Power+Pivot+%7C+DAX;Applied+Projects+%7C+BI+Dashboards+%7C+Streamlit" alt="Typing SVG" />
 </p>
  
-<h1 align="center">📊 Data Science & Analytics with GenAI — Learning Journey</h1> 
+<h1 align="center">📊 Data Science & Analytics with GenAI — Learning Journey</h1>  
 
 <p align="center">
   <em>A comprehensive, production-grade repository documenting my complete learning path through the <strong>Data Science and Analytics with GenAI</strong> curriculum — spanning Python fundamentals, numerical computing, advanced data wrangling, statistical visualization, Excel Business Intelligence (Power Query, Power Pivot, DAX), and interactive full-stack data applications.</em>
