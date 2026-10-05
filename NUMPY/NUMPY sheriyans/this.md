@@ -7,7 +7,7 @@ myarray.shape -> this command is to view the shape of the array
 
 myarray.dtype -> this command is to view the data type of the array 
 
-myarray[0,1]=45 
+myarray[0,1]=45  
 myarray -> this command is used to change the element valua the index passsed in the [] here 22 is changed with 45 
 
 listarray.dtype --> used to find the data type of the array 
