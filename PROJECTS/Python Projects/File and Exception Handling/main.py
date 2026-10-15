@@ -1,7 +1,7 @@
 from pathlib import Path
 import os
 
-def create_folder():
+def create_folder(): 
     try:
         name= input("Enter the name of the folder: ")
         p=Path(name)
