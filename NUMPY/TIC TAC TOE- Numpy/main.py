@@ -1,6 +1,6 @@
 import numpy as np
 import random
-
+ 
 class TicTacToeError(Exception):
     """Base exception for Tic Tac Toe game errors."""
     pass
