@@ -1,7 +1,7 @@
 PANDAS Notes:
 
 1. head():
-head in pandas are used to see the first 5 rows of the dataframes
+head in pandas are used to see the first 5 rows of the dataframes 
  
 2. tail():
 tail in pandas are used to see the last 5 rows of the dataframes
