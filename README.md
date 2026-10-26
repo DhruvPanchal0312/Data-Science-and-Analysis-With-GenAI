@@ -172,7 +172,7 @@ pip install numpy pandas matplotlib seaborn streamlit jupyter
 # Launch Streamlit Tic-Tac-Toe
 cd "NUMPY/TIC TAC TOE- Numpy"
 streamlit run "streamlit tic tac toe.py"
-```
+``` 
 
 ---
 
