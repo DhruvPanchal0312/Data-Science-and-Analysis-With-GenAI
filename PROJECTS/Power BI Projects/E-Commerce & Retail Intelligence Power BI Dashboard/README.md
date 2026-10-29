@@ -9,8 +9,8 @@
 [![Power Query](https://img.shields.io/badge/ETL-Power_Query-008080?style=for-the-badge&logo=microsoftexcel&logoColor=white)](#)
 [![Star Schema](https://img.shields.io/badge/Data_Model-Star_Schema-8B5CF6?style=for-the-badge&logo=databricks&logoColor=white)](#-data-architecture--star-schema)
 [![Scale](https://img.shields.io/badge/Dataset-1M+_Records-10B981?style=for-the-badge&logo=googlecloud&logoColor=white)](#-data-dictionary)
-[![GitHub Stars](https://img.shields.io/github/stars/DhruvPanchal0312/Data-Science-and-Analysis-With-GenAI?style=for-the-badge&color=gold)](https://github.com/DhruvPanchal0312/Data-Science-and-Analysis-With-GenAI/stargazers)
-[![Repo Size](https://img.shields.io/github/repo-size/DhruvPanchal0312/Data-Science-and-Analysis-With-GenAI?style=for-the-badge&color=blue)](https://github.com/DhruvPanchal0312/Data-Science-and-Analysis-With-GenAI)
+[![GitHub Stars](https://img.shields.io/github/stars/DhruvPanchal0312/E-Commerce-Retail-Intelligence-Power-BI-Dashboard?style=for-the-badge&color=gold)](https://github.com/DhruvPanchal0312/E-Commerce-Retail-Intelligence-Power-BI-Dashboard/stargazers)
+[![Repo Size](https://img.shields.io/github/repo-size/DhruvPanchal0312/E-Commerce-Retail-Intelligence-Power-BI-Dashboard?style=for-the-badge&color=blue)](https://github.com/DhruvPanchal0312/E-Commerce-Retail-Intelligence-Power-BI-Dashboard)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 <br/>
@@ -434,10 +434,10 @@ E-Commerce & Retail Intelligence Power BI Dashboard/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/DhruvPanchal0312/Data-Science-and-Analysis-With-GenAI.git
+git clone https://github.com/DhruvPanchal0312/E-Commerce-Retail-Intelligence-Power-BI-Dashboard.git
 
 # 2. Navigate to this project directory
-cd "Data-Science-and-Analysis-With-GenAI/PROJECTS/Power BI Projects/E-Commerce & Retail Intelligence Power BI Dashboard"
+cd E-Commerce-Retail-Intelligence-Power-BI-Dashboard
 
 # 3. Open the Power BI File
 # Double-click 'Ecommerce_Dashboard.pbix' or open via Power BI Desktop:
@@ -493,8 +493,11 @@ Distributed under the MIT License. See LICENSE for more information.
   <a href="mailto:dhruvpanchal0312@gmail.com">
     <img src="https://img.shields.io/badge/Email-dhruvpanchal0312@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
+  <a href="https://github.com/DhruvPanchal0312/E-Commerce-Retail-Intelligence-Power-BI-Dashboard">
+    <img src="https://img.shields.io/badge/Repository-E--Commerce_Dashboard-purple?style=for-the-badge&logo=github&logoColor=white" alt="Repository" />
+  </a>
   <a href="https://github.com/DhruvPanchal0312/Data-Science-and-Analysis-With-GenAI">
-    <img src="https://img.shields.io/badge/Repository-Data_Science_Portfolio-purple?style=for-the-badge&logo=git&logoColor=white" alt="Repository" />
+    <img src="https://img.shields.io/badge/Portfolio-Data_Science_Portfolio-blueviolet?style=for-the-badge&logo=git&logoColor=white" alt="Portfolio" />
   </a>
 </p>
 

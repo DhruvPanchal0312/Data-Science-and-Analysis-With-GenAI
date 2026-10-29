@@ -1,0 +1,16 @@
+# Power BI Auto-recovery and temporary files
+~$*.pbix
+*.pbix.tmp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Windows temporary files
+*.tmp
