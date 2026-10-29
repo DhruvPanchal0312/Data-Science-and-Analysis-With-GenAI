@@ -1,13 +1,17 @@
-# 📊 E-Commerce & Retail Intelligence Power BI Dashboard
-
 <div align="center">
 
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-Data_Analysis_Expressions-2563EB?style=for-the-badge&logo=microsoft&logoColor=white)
-![Power Query](https://img.shields.io/badge/ETL-Power_Query-008080?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![Star Schema](https://img.shields.io/badge/Data_Model-Star_Schema-8B5CF6?style=for-the-badge&logo=databricks&logoColor=white)
-![Scale](https://img.shields.io/badge/Dataset-1M+_Records-10B981?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+# 📊 E-Commerce & Retail Intelligence Power BI Dashboard
+
+### *An Enterprise-Grade Microsoft Power BI Business Intelligence Solution with Star Schema Dimensional Data Modeling & DAX Analytics*
+
+[![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![DAX](https://img.shields.io/badge/DAX-Data_Analysis_Expressions-2563EB?style=for-the-badge&logo=microsoft&logoColor=white)](#-dax-formulas--business-logic)
+[![Power Query](https://img.shields.io/badge/ETL-Power_Query-008080?style=for-the-badge&logo=microsoftexcel&logoColor=white)](#)
+[![Star Schema](https://img.shields.io/badge/Data_Model-Star_Schema-8B5CF6?style=for-the-badge&logo=databricks&logoColor=white)](#-data-architecture--star-schema)
+[![Scale](https://img.shields.io/badge/Dataset-1M+_Records-10B981?style=for-the-badge&logo=googlecloud&logoColor=white)](#-data-dictionary)
+[![GitHub Stars](https://img.shields.io/github/stars/DhruvPanchal0312/Data-Science-and-Analysis-With-GenAI?style=for-the-badge&color=gold)](https://github.com/DhruvPanchal0312/Data-Science-and-Analysis-With-GenAI/stargazers)
+[![Repo Size](https://img.shields.io/github/repo-size/DhruvPanchal0312/Data-Science-and-Analysis-With-GenAI?style=for-the-badge&color=blue)](https://github.com/DhruvPanchal0312/Data-Science-and-Analysis-With-GenAI)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 <br/>
 
@@ -19,7 +23,8 @@
 [Data Architecture](#-data-architecture--star-schema) •
 [DAX Measures](#-dax-formulas--business-logic) •
 [Project Structure](#-project-directory-structure) •
-[Quick Start](#-quick-start--setup-guide)
+[Quick Start](#-quick-start--setup-guide) •
+[Author](#-author--connect)
 
 ---
 
@@ -41,6 +46,7 @@
 - [🚀 Quick Start & Setup Guide](#-quick-start--setup-guide)
 - [🛠️ Tech Stack & Tooling](#️-tech-stack--tooling)
 - [👥 Contributing & License](#-contributing--license)
+- [👤 Author & Connect](#-author--connect)
 
 ---
 
@@ -388,9 +394,9 @@ CALCULATE(
 ## 📂 Project Directory Structure
 
 ```plaintext
-8 Project (Power BI)/
+E-Commerce & Retail Intelligence Power BI Dashboard/
 │
-├── 📊 Ecommerce_Dashboard.pbix         # Master Power BI Report & VertiPaq Data Model
+├── 📊 Ecommerce_Dashboard.pbix         # Master Power BI Report & VertiPaq Data Model (17.0 MB)
 ├── 🖼️ template.png                     # High-Resolution UI Report Background Canvas
 ├── 📖 README.md                        # Comprehensive Project Documentation
 │
@@ -427,11 +433,11 @@ CALCULATE(
 ### 🛠️ Execution Steps
 
 ```bash
-# 1. Clone or download the repository
-git clone https://github.com/your-username/ecommerce-powerbi-dashboard.git
+# 1. Clone the repository
+git clone https://github.com/DhruvPanchal0312/Data-Science-and-Analysis-With-GenAI.git
 
-# 2. Navigate to the project directory
-cd "8 Project (Power BI)"
+# 2. Navigate to this project directory
+cd "Data-Science-and-Analysis-With-GenAI/PROJECTS/Power BI Projects/E-Commerce & Retail Intelligence Power BI Dashboard"
 
 # 3. Open the Power BI File
 # Double-click 'Ecommerce_Dashboard.pbix' or open via Power BI Desktop:
@@ -464,21 +470,46 @@ cd "8 Project (Power BI)"
 
 ## 👥 Contributing & License
 
-Contributions, issues, and feature suggestions are welcome! Feel free to check the issues tab if you have feedback.
+Contributions, issues, and feature suggestions are welcome! Feel free to fork this repository and submit a pull request.
 
-```
+```text
 Distributed under the MIT License. See LICENSE for more information.
 ```
 
-<div align="center">
+---
+
+## 👤 Author & Connect
+
+**Dhruv Panchal**  
+*Data Science & Business Analytics Enthusiast*
+
+<p align="left">
+  <a href="https://github.com/DhruvPanchal0312">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/dhruv-p-735310341">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:dhruvpanchal0312@gmail.com">
+    <img src="https://img.shields.io/badge/Email-dhruvpanchal0312@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/DhruvPanchal0312/Data-Science-and-Analysis-With-GenAI">
+    <img src="https://img.shields.io/badge/Repository-Data_Science_Portfolio-purple?style=for-the-badge&logo=git&logoColor=white" alt="Repository" />
+  </a>
+</p>
+
+<p align="left">
+  💻 <b>GitHub:</b> <a href="https://github.com/DhruvPanchal0312">@DhruvPanchal0312</a><br>
+  💼 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/dhruv-p-735310341">Dhruv Panchal</a><br>
+  📧 <b>Email:</b> <a href="mailto:dhruvpanchal0312@gmail.com">dhruvpanchal0312@gmail.com</a>
+</p>
 
 ---
 
-⭐ **If you found this project helpful or inspiring, please give it a Star!** ⭐
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com)
-
+<div align="center">
+  ⭐ <i>If you found this dashboard and data model useful, please consider giving this repository a star!</i> ⭐
 </div>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=100&section=footer" width="100%" alt="Footer banner" />
+</p>

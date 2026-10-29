@@ -39,7 +39,7 @@ This repository documents my structured progression through the **Data Science a
 ├── 📂 NUMPY/          # Vectorized computing, broadcasting & Streamlit mini-apps
 ├── 📂 PANDAS/         # 9-class deep dive into data manipulation and pipeline cleaning
 ├── 📂 POWER BI/       # Data acquisition, preparation, M-code & BI modeling
-├── 📂 PROJECTS/       # Real-world Excel dashboards & Python portfolio applications
+├── 📂 PROJECTS/       # Real-world Excel & Power BI dashboards, Python portfolio applications
 └── 📂 SEABORN/        # 5-part statistical plotting series, distributions & correlation heatmaps
 ```
 
@@ -82,6 +82,7 @@ Structured across **9 comprehensive hands-on classes**:
 ### ⚡ [Power BI](./POWER%20BI/)
 - End-to-end data acquisition from heterogeneous sources.
 - Data cleansing, type casting, and schema modeling inside Power Query for analytical reporting.
+- **Featured Capstone Project:** **[E-Commerce & Retail Intelligence Dashboard](./PROJECTS/Power%20BI%20Projects/E-Commerce%20%26%20Retail%20Intelligence%20Power%20BI%20Dashboard/)** — Enterprise-grade BI dashboard analyzing 1,000,000+ transactions ($105.4M+ revenue) across 726 retail outlets with custom DAX time intelligence and collapsible navigation.
 
 ---
 
@@ -106,7 +107,16 @@ Structured across **9 comprehensive hands-on classes**:
 </details>
 
 <details open>
-<summary><b>📚 3. Library Management System (Python)</b></summary>
+<summary><b>🛍️ 3. E-Commerce & Retail Intelligence Dashboard (Power BI)</b></summary>
+<br>
+
+- **Directory:** [`PROJECTS/Power BI Projects/E-Commerce & Retail Intelligence Power BI Dashboard/`](./PROJECTS/Power%20BI%20Projects/E-Commerce%20%26%20Retail%20Intelligence%20Power%20BI%20Dashboard/)
+- **Tech Used:** Microsoft Power BI, DAX, Star Schema Data Modeling, Power Query, M-Code, Figma Canvas UI.
+- **Highlights:** Enterprise-grade retail intelligence analyzing 1,000,000+ transactions ($105.4M+ revenue) across 726 stores, featuring multi-year YoY growth tracking, geographic penetration heatmaps, customer retention cohorts (100% repeat rate), and an interactive collapsible navigation drawer.
+</details>
+
+<details open>
+<summary><b>📚 4. Library Management System (Python)</b></summary>
 <br>
 
 - **Directory:** [`PROJECTS/Python Projects/LIBRARY MANAGEMENT SYSTEM/`](./PROJECTS/Python%20Projects/LIBRARY%20MANAGEMENT%20SYSTEM/)
@@ -115,7 +125,7 @@ Structured across **9 comprehensive hands-on classes**:
 </details>
 
 <details open>
-<summary><b>🎮 4. NumPy Tic-Tac-Toe & Streamlit Web App</b></summary>
+<summary><b>🎮 5. NumPy Tic-Tac-Toe & Streamlit Web App</b></summary>
 <br>
 
 - **Directory:** [`NUMPY/TIC TAC TOE- Numpy/`](./NUMPY/TIC%20TAC%20TOE-%20Numpy/)
