@@ -2,7 +2,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&width=800&lines=Data+Science+%26+Analytics+with+GenAI;Python+%E2%80%A2+NumPy+%E2%80%A2+Pandas+%E2%80%A2+Matplotlib+%E2%80%A2+Seaborn;Excel+BI+%E2%80%A2+Power+Query+%E2%80%A2+Power+Pivot+%E2%80%A2+DAX;Applied+Projects+%E2%80%A2+Dashboards+%E2%80%A2+Streamlit+Apps" alt="Typing SVG" />
 </p>
 
-<h1 align="center">📊 Data Science & Analytics with GenAI</h1>
+<h1 align="center">📊 Data Science & Analytics with GenAI</h1> 
 
 <p align="center">
   <em>An end-to-end learning repository and portfolio covering statistical computing, exploratory analysis, Business Intelligence, data modeling, and applied AI workflows.</em>
