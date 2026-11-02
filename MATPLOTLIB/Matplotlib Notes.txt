@@ -32,7 +32,7 @@ used to add axes to the plot
     ax.set_title("title")
     ax.grid(True)
 
-11. plt.plot(x,y,marker="o",linewidth=2.5,label="Meri Line",
+11. plt.plot(x,y,marker="o",linewidth=2.5,label="Meri Line", 
             linestyle="--",markersize=10,markeredgecolor='red')
     plt.legend()
     plt.grid(True)
@@ -42,7 +42,7 @@ used to plot line graph
 marker -> design of the point
 linewidth -> thickness of the line
 label -> label of the line
-linestyle -> style of the line
+linestyle -> style of the line 
 markersize -> size of the point
 markeredgecolor -> color of the edge of the point
 
