@@ -39,7 +39,7 @@ arr
 arr.sum(axis=0) -> this command is used to find the sum of the array along the columns
 arr.sum(axis=1) -> this command is used to find the sum of the array along the rows
 arr.argmax(axis=0) -> this command is used to find the index of the largest value in the array
-arr.argmax(axis=1) -> this command is used to find the index of the largest value in the array
+arr.argmax(axis=1) -> this command is used to find the index of the largest value in the array 
 arr.argmin(axis=0) -> this command is used to find the index of the smallest value in the array
 arr.argmin(axis=1) -> this command is used to find the index of the smallest value in the array
 
