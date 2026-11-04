@@ -3,7 +3,7 @@ from main import Library
 from datetime import datetime
 
 # Initialize Library class to load database
-lib = Library()
+lib = Library() 
 
 st.set_page_config(
     page_title="Library Management System",
@@ -43,7 +43,7 @@ if menu == "Home / Dashboard":
         except (ValueError, TypeError):
             pass
 
-    c1, c2, c3 = st.columns(3) 
+    c1, c2, c3 = st.columns(3)  
     with c1:
         st.metric("Total Unique Books", total_books)
     with c2:
