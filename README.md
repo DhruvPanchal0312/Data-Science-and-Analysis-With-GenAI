@@ -4,7 +4,7 @@
 
 <h1 align="center">📊 Data Science & Analytics with GenAI</h1> 
 
-<p align="center">
+<p align="center"> 
   <em>An end-to-end learning repository and portfolio covering statistical computing, exploratory analysis, Business Intelligence, data modeling, and applied AI workflows.</em>
 </p>
 
