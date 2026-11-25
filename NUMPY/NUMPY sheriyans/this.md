@@ -2,7 +2,7 @@
 myarray=np.array([[2,22,45,65,1]])
 myarray[0, 1]   
 this command is to view the element of 2nd row and 1nd column and to create a array of 2*2 matrix
-
+ 
 myarray.shape -> this command is to view the shape of the array
 
 myarray.dtype -> this command is to view the data type of the array  
